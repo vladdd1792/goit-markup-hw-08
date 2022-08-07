@@ -869,6 +869,11 @@ margin-top: 20px;
 margin-left: 76px;
 
 }
+
+.umowa {
+    color: #188CE8;
+    text-decoration: underline;
+}
 .modall-btm-b2 {
     width: 200px;
 height: 50px;
@@ -882,6 +887,14 @@ margin-top: 30px;
 margin-bottom: 40px;
 margin-left: 164px;
 }
+
+.modall-btm-b2:focus,
+.modall-btm-b2:hover  {
+    background: #188CE8;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
+} 
 
 .modall-btm-b2-span {
     font-family: 'Roboto';
@@ -902,4 +915,5 @@ margin-bottom: 10px;
 margin-left: 52px;
 margin-right: 52px;
 }
+
 /*-------------------------------------------/MODAL-WIND*/

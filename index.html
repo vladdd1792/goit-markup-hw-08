@@ -413,19 +413,40 @@
         <form class="modal-btm-form"> 
         <label class="modal-btm-name">
             <span class="modal-name">Ім'я</span>
-            <input type="" class="input-btm">
+            <input 
+            type="text" 
+            class="input-btm"
+            placeholder="" 
+            name="user_name"
+            required>
+    
         </label>
         <label class="modal-btm-phone">
                 <span class="modal-phone">Телефон</span>
-            <input type="" class="input-btm">
+            <input type="text" 
+            class="input-btm" 
+            placeholder="" 
+            name="user_phone"
+            required>
         </label>
         <label class="modal-btm-maill">
             <span class="modal-maill">Пошта</span>
-            <input type="" class="input-btm">
+            <input 
+            type="text" 
+            class="input-btm" 
+            placeholder="" 
+            name="user_maill"
+            required>
         </label>
         <label class="modal-btm-coment">
             <span class="modal-coment">Коментар</span>
-            <input type="" class="input-btm-s">
+            <input 
+            type="tex" 
+            class="input-btm-s" 
+            placeholder="Введіть текст" 
+            name="user_coment" 
+            required>
+            
         </label>
         <label>
 
@@ -437,8 +458,10 @@
                     <use href="./images/svg1-2-3/symbol-defs.svg#icon-cloes-modalsvg"></use>
                 </svg>
             </button>
-            <p class="text-modal-footer">Погоджуюся з розсилкою та приймаю Умови договору</p>
-            <bytton type="button" class="modall-btm-b2">
+            <p class="text-modal-footer">Погоджуюся з розсилкою та приймаю 
+                <a href="#" class="umowa">Умови договору</a>
+            </p>
+            <bytton type="submit" class="modall-btm-b2">
                 <span class="modall-btm-b2-span">Відправити</span>
             </bytton>
         </div>
