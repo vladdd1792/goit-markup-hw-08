@@ -779,7 +779,7 @@ color: rgba(255, 255, 255, 0.6);
 }
 
 .modall-close-btn:focus {
-    color: var(--knob-color);
+ color: #2196F3;
 }
 
 .modall-btm-button{
@@ -857,9 +857,7 @@ margin-bottom: 10px;
     border-color: var(--knob-color);
 }
 
-.modal-btm-coment:focus +.modal-btm-spann {
-    fill: var(--knob-color);
-}
+
 
 .input-btm {
     width: 448px;
@@ -877,7 +875,9 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     outline: none;
     border-color: var(--knob-color);
 }
-
+.input-btm:focus +.modal-btm-spann {
+    fill: var(--knob-color);
+}
 .input-btm-s {
     width: 448px;
     height: 120px;
@@ -961,16 +961,20 @@ margin-right: 52px;
 
 .modal-btm-spann {
     display: block;
-    width: 18px;
-    height: 18px;
+    width: 12px;
+    height: 12px;
     color: #212121;
     position: absolute;
     top: 50%;
     left: 12px;
     transform: translate(0,-70%);
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1)
-
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1)
 }
+.modal-btm-spann:focus {
+    fill: var(--knob-color);
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1)
+}
+
 
 .modal-btm-div {
     position: relative;
