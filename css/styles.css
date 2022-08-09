@@ -864,8 +864,8 @@ padding-top: 5%;
 }
 
 .modall-close-btn:hover {
- color: #2196F3;
- transition: 2500ms cubic-bezier(0.4, 0, 0.2, 1);
+ fill: #2196F3;
+ transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
  
 }
 
@@ -1003,7 +1003,6 @@ left: 700px;
 top: 712px;
 
 background: #2196F3;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 border-radius: 4px;
 margin-top: 30px;
 margin-bottom: 40px;
@@ -1014,7 +1013,6 @@ border-color: var(--knob-color);
 .modall-btm-submit:hover, 
 .modall-btm-submit:focus{
     background: #188CE8;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 } 
 
