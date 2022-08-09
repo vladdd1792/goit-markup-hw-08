@@ -420,7 +420,7 @@
                    </div>
                    <div class="button-div-podpis">
                    <button type="submit" class="button-podpis">
-                    <span class="podpis"> Підписатися</span>
+                    <p class="podpis"> Підписатися</p>
                     <svg class="button-svg-podpis">
                         <use href="./images/footer-podpis-svg/symbol-defs.svg#icon-tellegram"></use>
                     </svg>
@@ -438,7 +438,7 @@
             <p class="h22">Залиште свої дані, ми вам передзвонимо</p>
         <form class="modal-btm-form"> 
         <label class="modal-btm-name">
-            <span class="modal-name">Ім'я</span>
+            <p class="modal-name">Ім'я</p>
             <div class="modal-btm-div">
             <input 
             type="text"
@@ -456,8 +456,8 @@
         </div>
         </label>
         <label class="modal-btm-phone">
-                <span class="modal-phone">Телефон</span>
-                <div class="modal-btm-div">
+            <p class="modal-phone">Телефон</p>
+            <div class="modal-btm-div">
             <input 
             type="tel" 
             class="input-btm" 
@@ -473,7 +473,7 @@
         </div>
         </label>
         <label class="modal-btm-maill">
-            <span class="modal-maill">Пошта</span>
+            <p class="modal-maill">Пошта</p>
             <div class="modal-btm-div">
             <input 
             type="email" 
@@ -491,15 +491,14 @@
         <label>
         <p class="modal-phone">Коментар</p>
         <textarea name="use_massege" class="modal-btm-coment" placeholder="Введіть текст"></textarea> 
-        </label>   
-        </form>
-            <button type="button" class="modall-btm-button" data-modal-close>
+        </label>
+          <button type="button" class="modall-btm-button" data-modal-close>
                 <svg class="modall-close-btn" width="11" height="11">
                     <use href="./images/svg1-2-3/symbol-defs.svg#icon-cloes-modalsvg"></use>
                 </svg>
             </button>
             <div class="umowa-zgody">
-        <label>
+        <label class="zgoda">
                 <input type="checkbox" class="input-zgody"> 
                 <p class="text-modal-footer">Погоджуюся з розсилкою та приймаю 
                 <a href="#" class="umowa">Умови договору</a>
@@ -510,6 +509,8 @@
                 <span class="modall-btm-b2-span">Відправити</span>
             </bytton>
         </div>
+        </form>
+          
     </div>
   <!---------------------------------/MODAL-WIND-->
   <script src="./js/modal.js"></script>

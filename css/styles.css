@@ -803,6 +803,8 @@ background: #2196F3;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 border-radius: 4px;
 border-color: #2196F3;
+display: inline-flex;
+align-items: center;
 
 }
 
@@ -812,25 +814,17 @@ font-weight: 700;
 font-size: 16px;
 line-height: 1.87;
 
-display: flex;
-align-items: center;
-text-align: center;
 letter-spacing: 0.06em;
 
 color:var(--whitey-color);
-padding-left: 28px;
-padding-top: 5%;
+margin: 10px;
+
 }
 
 .button-svg-podpis {
     width: 24px;
     height: 24px;
     fill: var(--whitey-color);
-    padding-top: 13px;
-    padding-bottom: 13px;
-    padding-right: 28px;
-    padding-left: 148;
-
 }
 
 /*---------------------------------/FOOTER--*/
@@ -858,6 +852,7 @@ padding-top: 5%;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    padding: 40px;
     width: 528px;
     height: 581px;
     background-color: #FFFFFF;
@@ -884,6 +879,10 @@ padding-top: 5%;
     padding: 0%;
 }
 
+.modal-btm-form {
+    margin-top: 12px;
+}
+
 .h22 {
     font-family: 'Roboto', sans-serif;
 font-style: normal;
@@ -894,16 +893,9 @@ text-align: center;
 letter-spacing: 0.03em;
 
 color: #212121;
-margin-top: 40px;
-margin-bottom: 12px;
-}
-
-.modal-btm-form {
-padding-left: 40px;
-padding-right: 40px;
-
 
 }
+
 
 .modal-name,
 .modal-phone,
@@ -976,20 +968,23 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 border-radius: 4px;
 }
 .text-modal-footer {
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
 font-weight: 400;
 font-size: 14px;
 line-height: 2.0;
-
+display: flex;
 letter-spacing: 0.03em;
 
 color: #757575;
-margin-top: 0px;
-margin-left: 76px;
+
 }
 
 .modal-icon-icon {
     color: #212121;
+}
+
+.zgoda {
+right: 500px;
 }
 
 .umowa {
@@ -1005,8 +1000,8 @@ top: 712px;
 background: #2196F3;
 border-radius: 4px;
 margin-top: 30px;
-margin-bottom: 40px;
-margin-left: 164px;
+
+margin-left: 100px;
 border-color: var(--knob-color);
 }
 
@@ -1025,24 +1020,16 @@ font-weight: 700;
 font-size: 16px;
 line-height: 30px;
 /* identical to box height, or 188% */
-
-display: flex;
-align-items: center;
 text-align: center;
 letter-spacing: 0.06em;
-
 color: #FFFFFF;
-margin-top: 10px;
-margin-bottom: 10px;
-margin-left: 52px;
-margin-right: 52px;
 }
 
 .input-zgody {
     width: 16px;
     height: 15px;
     position: absolute; 
-    margin-left: 52px;
+   
     margin-top: 6px;
 }
 

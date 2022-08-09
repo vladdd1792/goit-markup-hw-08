@@ -587,8 +587,8 @@ padding-left: 16px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     border-color: #2196F3;
-    margin-left: 12px;
-    
+    display: inline-flex;
+    align-items: center;
     }
     
     .podpis {
@@ -603,18 +603,14 @@ padding-left: 16px;
     letter-spacing: 0.06em;
     
     color:var(--whitey-color);
-    padding-left: 28px;
-    padding-top: 5%;
+    margin: 10px;
+   
     }
     
     .button-svg-podpis {
         width: 24px;
         height: 24px;
         fill: var(--whitey-color);
-        padding-top: 13px;
-        padding-bottom: 13px;
-        padding-right: 28px;
-        padding-left: 148;
     
     }
     
