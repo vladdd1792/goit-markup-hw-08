@@ -783,7 +783,7 @@ padding-left: 16px;
 
 .label-input-footer:focus {
     outline: none;
-    border-color: var(--knob-color);
+    border-color: var(--whitey-color);
 }
 
 .label-div-footer {
@@ -935,6 +935,8 @@ margin-bottom: 10px;
     padding-right: 16px;
     resize: none;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
 }
 
 .modal-btm-coment:focus {
