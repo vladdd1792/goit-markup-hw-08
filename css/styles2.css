@@ -415,7 +415,6 @@ padding-top: 63px;
     line-height: 1.19px; 
     letter-spacing: 0.03em;
     color:var(--knob-color);
-
 }
 .logotips {
     font-family: 'Raleway', sans-serif;
@@ -522,31 +521,6 @@ color: rgba(255, 255, 255, 0.6);
     background-color: #2196F3; 
 }
 
-.form-footer  {
-    display: flex;
-    margin-left: 93px;
-    -webkit-box-align: end;
-    -ms-flex-align: end;
-    align-items: flex-end;
-}
-.label-input-footer {
-    width: 358px;
-    height: 50px;
-    border: 1px solid rgba(255, 255, 255, 0.3);
-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-border-radius: 4px;
-background-color: #2F303A;
-color: #F5F4FA;
-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-padding-left: 16px;
-
-}
-
-.label-input-footer:focus {
-    outline: none;
-    border-color: var(--knob-color);
-}
-
 .label-span-footer {
     font-family: 'Roboto', sans-serif;
 font-style: normal;
@@ -559,6 +533,14 @@ text-transform: uppercase;
 color: #FFFFFF;
 margin-bottom: 20px;
 
+}
+
+.form-footer  {
+    display: flex;
+    margin-left: 93px;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end;
 }
 
 .label-input-footer {
@@ -578,40 +560,46 @@ padding-left: 16px;
     outline: none;
     border-color: var(--whitey-color);
 }
+
+.label-div-footer {
+   margin-left: 93px; 
+}
+
+.button-div-podpis {
+    margin-left: 12px;
+}
+
 .button-podpis {
-    width: 200px;
-    height: 50px;
-    cursor: pointer;
-    
-    background: #2196F3;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
-    border-color: #2196F3;
-    display: inline-flex;
-    align-items: center;
-    }
-    
-    .podpis {
-        font-family: 'Roboto', sans-serif;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.87;
-    
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.06em;
-    
-    color:var(--whitey-color);
-    margin: 10px;
-   
-    }
-    
-    .button-svg-podpis {
-        width: 24px;
-        height: 24px;
-        fill: var(--whitey-color);
-    
-    }
+width: 200px;
+height: 50px;
+cursor: pointer;
+
+background: #2196F3;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+border-color: #2196F3;
+display: inline-flex;
+align-items: center;
+
+}
+
+.podpis {
+    font-family: 'Roboto', sans-serif;
+font-weight: 700;
+font-size: 16px;
+line-height: 1.87;
+
+letter-spacing: 0.06em;
+
+color:var(--whitey-color);
+margin: 10px;
+
+}
+
+.button-svg-podpis {
+    width: 24px;
+    height: 24px;
+    fill: var(--whitey-color);
+}
     
 /*=================FOOTER====================*/

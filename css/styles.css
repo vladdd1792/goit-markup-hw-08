@@ -972,7 +972,6 @@ border-radius: 4px;
 font-weight: 400;
 font-size: 14px;
 line-height: 2.0;
-display: flex;
 letter-spacing: 0.03em;
 
 color: #757575;
@@ -984,7 +983,10 @@ color: #757575;
 }
 
 .zgoda {
-right: 500px;
+display: flex;
+justify-content: center;
+align-items: center;
+
 }
 
 .umowa {
@@ -1028,9 +1030,8 @@ color: #FFFFFF;
 .input-zgody {
     width: 16px;
     height: 15px;
-    position: absolute; 
-   
-    margin-top: 6px;
+    margin-right: 7px;
+
 }
 
 .umowa-zgody {
