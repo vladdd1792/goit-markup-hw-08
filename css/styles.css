@@ -1006,13 +1006,14 @@ align-items: center;
 }
 
 .span-zgody {
+    display: flex;
     width: 15px;
     height: 15px;
     border: 2px solid #212121; 
     border-radius: 2px;
     margin-right: 7px;
+    align-items: center;
    
-
     
 }
 .input-zgody:checked + .span-zgody {
@@ -1022,6 +1023,11 @@ align-items: center;
     background-position: center;
     background-size: contain;
     background-origin: border-box;
+}
+
+.svg-zgody {
+    fill: #FFFFFF;
+    border: 0.2px solid #FFFFFF;
 }
 
 .umowa {
