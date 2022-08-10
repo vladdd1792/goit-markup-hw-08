@@ -858,8 +858,8 @@ margin: 10px;
     background-color: #FFFFFF;
 }
 
-.modall-close-btn:hover, 
-.modall-close-btn:focus{
+.modall-btm-button +.modall-close-btn:hover, 
+.modall-btm-button +.modall-close-btn:focus{
  fill: #2196F3;
  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
  
@@ -987,9 +987,24 @@ color: #757575;
 display: flex;
 justify-content: center;
 align-items: center;
+}
+
+.input-zgody::before {
+    display: block;
+    border: 1px solid #212121; ;
+    width: 16px;
+    height: 15px;
+    cursor: pointer;
+    contain: '';
 
 }
 
+.input-zgody:checked +.input-zgody::before {
+    background: #2196F3;
+    border-radius: 2px;
+    background-image: url(../images/modal-wind-ikon/symbol-defs.svg#icon-gal);
+    background-position: center;
+}
 .umowa {
     color: #188CE8;
     text-decoration: underline;
