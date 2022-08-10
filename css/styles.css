@@ -858,8 +858,8 @@ margin: 10px;
     background-color: #FFFFFF;
 }
 
-.modall-btm-button +.modall-close-btn:hover, 
-.modall-btm-button +.modall-close-btn:focus{
+.modall-btm-button:hover .modall-close-btn, 
+.modall-btm-button:focus .modall-close-btn{
  fill: #2196F3;
  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
  
