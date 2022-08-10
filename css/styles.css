@@ -1017,6 +1017,7 @@ align-items: center;
 }
 .input-zgody:checked + .span-zgody {
     background-color: #2196F3;
+    color: #F5F4FA;
     background-image: url(../images/modal-wind-ikon/symbol-defs.svg#icon-gal);
     background-position: center;
     background-size: contain;
