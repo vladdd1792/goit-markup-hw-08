@@ -389,6 +389,9 @@ padding-top: 63px;
     background: #2F303A;
     
 }
+.logogo {
+    flex-shrink: 0;
+}
 .log {
     display: flex;
     align-items: baseline;

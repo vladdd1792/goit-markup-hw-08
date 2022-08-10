@@ -614,6 +614,10 @@ color: var(--text-color);
     background: #2F303A;
     
 }
+
+.logogo {
+    flex-shrink: 0;
+}
 .log {
     display: flex;
     align-items: baseline;
@@ -759,7 +763,9 @@ color: #FFFFFF;
 margin-bottom: 20px;
 
 }
-
+.form-footer-div-1 {
+    margin-left: 93px;
+}
 .form-footer  {
     display: flex;
     margin-left: 93px;
@@ -786,9 +792,6 @@ padding-left: 16px;
     border-color: var(--whitey-color);
 }
 
-.label-div-footer {
-   margin-left: 93px; 
-}
 
 .button-div-podpis {
     margin-left: 12px;
@@ -1016,6 +1019,8 @@ align-items: center;
     background-color: #2196F3;
     background-image: url(../images/modal-wind-ikon/symbol-defs.svg#icon-gal);
     background-position: center;
+    background-size: contain;
+    background-origin: border-box;
 }
 
 .umowa {
