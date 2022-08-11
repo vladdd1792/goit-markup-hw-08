@@ -1028,6 +1028,7 @@ align-items: center;
     background-position: center;
     background-size: contain;
     background-origin: border-box;
+    padding-left: 1px;
 }
 
 .svg-zgody {
