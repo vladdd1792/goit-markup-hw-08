@@ -1,0 +1,103 @@
+button {
+    cursor: pointer;
+}
+.modal-btn {
+    font-family: 'Roboto', sans-serif;
+   font-weight: 700;
+    font-size: 16px;
+   line-height: 1.87;
+   letter-spacing: 0.06em;
+   border-radius: 4px;
+   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+   background-color:  #2196F3;
+   color: var(--whitey-color);
+   cursor: pointer;
+   /*color:#FFFFFFF;*/
+   
+   width: 200px;
+   height: 50px;
+   border: 0;
+   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+
+    &:hover {
+    background: #188CE8;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+}
+
+.button-div-podpis {
+    margin-left: 12px;
+}
+
+.button-podpis {
+width: 200px;
+height: 50px;
+cursor: pointer;
+
+background: #2196F3;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+border-color: #2196F3;
+display: inline-flex;
+align-items: center;
+
+}
+
+.podpis {
+    font-family: 'Roboto', sans-serif;
+font-weight: 700;
+font-size: 16px;
+line-height: 1.87;
+
+letter-spacing: 0.06em;
+
+color:var(--whitey-color);
+margin: 10px;
+
+}
+
+.button-svg-podpis {
+    width: 24px;
+    height: 24px;
+    fill: var(--whitey-color);
+}
+
+.modall-btm-button{
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 0%;
+
+    &:hover .modall-close-btn, 
+    &:focus .modall-close-btn{
+     fill: #2196F3;
+     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+}
+
+.modall-btm-submit {
+    width: 200px;
+height: 50px;
+background: #2196F3;
+border-radius: 4px;
+margin-top: 30px;
+border-color: var(--knob-color);
+margin: auto;
+display: block;
+margin-top: 40px;
+
+    &:hover, 
+    &:focus{
+    background: #188CE8;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+} 
+}

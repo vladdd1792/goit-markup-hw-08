@@ -1,42 +1,4 @@
-/* ul, 
-ol {
-    list-style: none;
-} */
-
-/*a {
-    text-decoration: none;
-}
-
-.container {
-    width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 15px;
-    padding-right: 15px;
-}
-
-h1, h2, h3, p {
-    margin: 0;
-    padding-left: 0;
-}
-ul, ol {
-    margin: 0;
-    padding-left: 0;
-}
-
-.list {
-    list-style: none;
-}
-li {
-    list-style-type:none
-}
-.rif {
-    font-style: normal;
-}
-
-/*--HEADER--*/
-
-/*.page-header {
+.page-header {
     border-bottom: #ECECEC 1px solid;
 }
 
@@ -80,9 +42,7 @@ li {
 .menu-link:focus {
     color: var(--accent-color) 
 }
-.log {
-    margin-right: 71px;
-}
+
 
 .logotipe-blue {
     font-family: 'Raleway';
@@ -130,11 +90,12 @@ position: relative;
 display: block;
 cursor: pointer;
 
-}
-.menu-li:hover,
-.menu-li:focus {
+&:hover,
+&:focus {
     color: var(--knob-color);
 }
+}
+
 .contact-phoun-number {
     display: flex;
     flex-direction: row-reverse;
@@ -166,6 +127,11 @@ cursor: pointer;
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: #757575;
+
+    &:hover,
+    &:focus {
+    color: #2196F3;
+}
 }
 .contact-phoun-number {
     display: flex;
@@ -194,10 +160,7 @@ cursor: pointer;
     margin-right: 30px;
 }
 
-.contact-maill:hover,
-.contact-maill:focus {
-    color: #2196F3;
-}
+
 
 
 .current::after {
@@ -215,22 +178,13 @@ cursor: pointer;
     background-color: var(--knob-color);
     border-radius: 2px;
     
+
     
+   &:hover::after {
+    background-color:var(--text-color);
+}
 }
 
 .current {
     color:var(--knob-color)
 }
-
-.menu-li:hover::after {
-    background-color:var(--text-color);
-}
-/*--/======================HEADER--*/
-
-/*============HERO==========================*/
-
-
-/*============+HERO==========================*/
-/*=================FOOTER====================*/
-
-/*=================FOOTER====================*/
