@@ -8,14 +8,11 @@
    gap: 30px;
   
   }
-  .photoss {
+  .photo_section {
       padding-top: 94px;
       padding-bottom: 94px;
   }
-  .cont-photo {
-      display: flex;
-      justify-content: space-between;
-  }
+  
   .page_title {
   font-family: 'Roboto', sans-serif;
   font-weight: 900;
@@ -56,10 +53,10 @@
       display: flex;
   }
   
-  .ol-rel-tel {
+  .text-li {
       width: 270px;
   }
-  .rel {
+  .li_h3 {
       font-family: 'Roboto', sans-serif;
   font-weight: 700;
   font-size: 14px;
@@ -70,7 +67,7 @@
   color: var(--text-color);
   margin-bottom: 10px;
   }
-  .tel {
+  .h3_indent {
       font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 14px;
@@ -92,6 +89,11 @@
   color: var(--text-color);
   margin-bottom: 50px;
   }
+
+  .work_photo {
+    display: flex;
+    justify-content: space-between;
+}
   
   .client-title {
       font-family: 'Roboto', sans-serif;

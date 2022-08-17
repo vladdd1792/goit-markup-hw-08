@@ -5,10 +5,10 @@
     
 }
 
-.logogo {
+.footer_div_2 {
     flex-shrink: 0;
 }
-.log {
+.footer_div {
     display: flex;
     align-items: baseline;
     margin-right: 71px;
@@ -28,7 +28,7 @@
     margin-left: 20px;
 }
 
-.logotipe {
+.logotipe_blue_end {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 26px;
@@ -36,7 +36,7 @@
     letter-spacing: 0.03em;
     color:var(--knob-color);
 }
-.logotips {
+.logotip_blake_end {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 26px;
@@ -57,7 +57,7 @@
     color: #FFFFFF;
 }
 
-.cl {
+.contact_end {
     font-family: 'Roboto', sans-serif;
 font-weight: 400;
 font-size: 14px;
@@ -70,10 +70,10 @@ color: rgba(255, 255, 255, 0.6);
 .cl21 {
     margin-bottom: 9px;
 }
-.cl2{
+.adres_list_end{
     margin-bottom: 9px;
 }
-.cl13{
+.adres_footer{
     margin-top: 20px;
     margin-bottom: 9px;
     font-family: var(--primary-font);

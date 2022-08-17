@@ -4,10 +4,10 @@
     background: #2F303A;
     
 }
-.logogo {
+.logotipe_div_2 {
     flex-shrink: 0;
 }
-.log {
+.logotipe_end {
     display: flex;
     align-items: baseline;
 }
@@ -26,7 +26,7 @@
     margin-left: 20px;
 }
 
-.logotipe {
+.logotipe_blu {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 26px;
@@ -34,7 +34,7 @@
     letter-spacing: 0.03em;
     color:var(--knob-color);
 }
-.logotips {
+.logotipe_white {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 26px;
@@ -55,7 +55,7 @@
     color: #FFFFFF;
 }
 
-.cl {
+.adres_footer_cont {
     font-family: 'Roboto', sans-serif;
 font-weight: 400;
 font-size: 14px;
@@ -68,10 +68,10 @@ color: rgba(255, 255, 255, 0.6);
 .cl21 {
     margin-bottom: 9px;
 }
-.cl2{
+.list_li_footer{
     margin-bottom: 9px;
 }
-.cl13{
+.adres_footer{
     margin-top: 20px;
     margin-bottom: 9px;
     font-family: var(--primary-font);

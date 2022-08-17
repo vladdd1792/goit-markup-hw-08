@@ -270,7 +270,7 @@ button {
   color: var(--accent-color);
 }
 
-.logotipe {
+.logotipe-title {
   margin-right: 71px;
 }
 
@@ -420,14 +420,9 @@ button {
   gap: 30px;
 }
 
-.photoss {
+.photo_section {
   padding-top: 94px;
   padding-bottom: 94px;
-}
-
-.cont-photo {
-  display: flex;
-  justify-content: space-between;
 }
 
 .page_title {
@@ -464,11 +459,11 @@ button {
   display: flex;
 }
 
-.ol-rel-tel {
+.text-li {
   width: 270px;
 }
 
-.rel {
+.li_h3 {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 14px;
@@ -479,7 +474,7 @@ button {
   margin-bottom: 10px;
 }
 
-.tel {
+.h3_indent {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 14px;
@@ -497,6 +492,11 @@ button {
   letter-spacing: 0.03em;
   color: var(--text-color);
   margin-bottom: 50px;
+}
+
+.work_photo {
+  display: flex;
+  justify-content: space-between;
 }
 
 .client-title {
@@ -668,11 +668,11 @@ button {
   background: #2F303A;
 }
 
-.logogo {
+.footer_div_2 {
   flex-shrink: 0;
 }
 
-.log {
+.footer_div {
   display: flex;
   align-items: baseline;
   margin-right: 71px;
@@ -693,7 +693,7 @@ button {
   margin-left: 20px;
 }
 
-.logotipe {
+.logotipe_blue_end {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -702,7 +702,7 @@ button {
   color: var(--knob-color);
 }
 
-.logotips {
+.logotip_blake_end {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -721,7 +721,7 @@ button {
   color: #FFFFFF;
 }
 
-.cl {
+.contact_end {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 14px;
@@ -734,11 +734,11 @@ button {
   margin-bottom: 9px;
 }
 
-.cl2 {
+.adres_list_end {
   margin-bottom: 9px;
 }
 
-.cl13 {
+.adres_footer {
   margin-top: 20px;
   margin-bottom: 9px;
   font-family: var(--primary-font);
@@ -836,7 +836,7 @@ button {
   margin-top: 12px;
 }
 
-.h22 {
+.modal_btm_p {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -1139,6 +1139,7 @@ li {
 .menu-ul-header {
   display: flex;
   align-items: center;
+  margin-left: 60px;
 }
 
 .menu-li {
@@ -1218,7 +1219,7 @@ li {
   fill: currentColor;
 }
 
-.contact-m {
+.contact_li {
   margin-right: 30px;
 }
 
@@ -1264,7 +1265,7 @@ li {
   border: 1px solid #EEEEEE;
 }
 
-.proekt {
+.photo_h3 {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -1274,7 +1275,7 @@ li {
   color: var(--text-color);
 }
 
-.proek {
+.h3_p {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
@@ -1351,11 +1352,11 @@ li {
   background: #2F303A;
 }
 
-.logogo {
+.logotipe_div_2 {
   flex-shrink: 0;
 }
 
-.log {
+.logotipe_end {
   display: flex;
   align-items: baseline;
 }
@@ -1375,7 +1376,7 @@ li {
   margin-left: 20px;
 }
 
-.logotipe {
+.logotipe_blu {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -1384,7 +1385,7 @@ li {
   color: var(--knob-color);
 }
 
-.logotips {
+.logotipe_white {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -1403,7 +1404,7 @@ li {
   color: #FFFFFF;
 }
 
-.cl {
+.adres_footer_cont {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 14px;
@@ -1416,11 +1417,11 @@ li {
   margin-bottom: 9px;
 }
 
-.cl2 {
+.list_li_footer {
   margin-bottom: 9px;
 }
 
-.cl13 {
+.adres_footer {
   margin-top: 20px;
   margin-bottom: 9px;
   font-family: var(--primary-font);
@@ -1531,7 +1532,7 @@ li {
   margin-bottom: 34;
 }
 
-.but {
+.button_li {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
@@ -1550,7 +1551,7 @@ li {
   border: 0;
   border-radius: 4px;
 }
-.but:hover, .but:focus {
+.button_li:hover, .button_li:focus {
   background-color: var(--knob-color);
   color: var(--whitey-color);
   box-shadow: 0px 3px 1px rgba(77, 138, 228, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
