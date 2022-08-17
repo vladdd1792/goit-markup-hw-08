@@ -222,18 +222,18 @@ button {
   height: 20px;
 }
 
-.page-header {
+.page_header {
   border-width: 0 0 1rem 0;
   border: #ececec;
 }
 
-.page-header-container {
+.page_header {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-.page-nav {
+.nav {
   display: flex;
   align-items: center;
 }
@@ -260,7 +260,7 @@ button {
   margin-right: 50px;
 }
 
-.menu-li-1 {
+.menu_ul {
   display: flex;
   align-items: center;
 }
@@ -270,11 +270,11 @@ button {
   color: var(--accent-color);
 }
 
-.logo {
+.logotipe {
   margin-right: 71px;
 }
 
-.logotipe-blue {
+.logotipe_blue {
   font-family: "Raleway";
   font-weight: 700;
   font-size: 26px;
@@ -283,7 +283,7 @@ button {
   color: var(--knob-color);
 }
 
-.logotip-black {
+.logotip_black {
   font-family: "Raleway";
   font-weight: 700;
   font-size: 26px;
@@ -292,7 +292,7 @@ button {
   color: black;
 }
 
-.menu-item:not(:last-child) {
+.menu_item:not(:last-child) {
   margin-right: 50px;
 }
 
@@ -333,7 +333,7 @@ button {
   color: #757575;
 }
 
-.contact-maill {
+.contact_maill {
   display: flex;
   flex-direction: row-reverse;
   font-family: var(--primary-font);
@@ -345,7 +345,7 @@ button {
   color: #757575;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.contact-maill:hover, .contact-maill:focus {
+.contact_maill:hover, .contact_maill:focus {
   color: #2196F3;
 }
 
@@ -366,17 +366,17 @@ button {
   text-align: center;
 }
 
-.contact-maill,
-.contact-maill-svg {
+.contact_maill,
+.contact_maill_svg {
   margin-right: 10px;
   fill: currentColor;
 }
 
-.contact-m {
+.contact_1 {
   margin-right: 30px;
 }
 
-.contact-m {
+.contact_1 {
   margin-right: 30px;
 }
 
@@ -397,7 +397,6 @@ button {
 .menu-li.current::after {
   position: absolute;
   display: block;
-  bottom: -1px;
   height: 4px;
   width: 100%;
   background-color: var(--knob-color);
@@ -782,15 +781,12 @@ button {
   margin-bottom: 20px;
 }
 
-.form-footer-div-1 {
-  margin-left: 93px;
-}
-
 .form-footer {
   display: flex;
   -webkit-box-align: end;
   -ms-flex-align: end;
   align-items: flex-end;
+  margin-left: 110px;
 }
 
 .label-input-footer {
@@ -1524,10 +1520,6 @@ li {
 .label-input-footer:focus {
   outline: none;
   border-color: var(--whitey-color);
-}
-
-.label-div-footer {
-  margin-left: 93px;
 }
 
 .menu-but {
