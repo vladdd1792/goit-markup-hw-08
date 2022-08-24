@@ -1,3 +1,18 @@
+
+.mobaile-menu-open {
+    background: #FFFFFF;
+    border: none;
+}
+
+@media screen and (min-width: 768px) {
+    .mobaile-menu-open {
+        display: none;
+    }
+}
+
+.mobaile-menu-open-icon {
+    height: 0;
+}
 button {
     cursor: pointer;
 }

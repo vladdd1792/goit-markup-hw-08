@@ -35,7 +35,7 @@
                 </li>
             </ul>
            </nav>
-           <button class="mobaile-menu-open">
+           <button type="button" class="mobaile-menu-open" data-menu-open>
             <svg class="mobaile-menu-open-icon" width="40" height="40">
                 <use href="./images/svg1-2-3/symbol-defs.svg#burger-icon"></use>
 
@@ -64,6 +64,49 @@
             </a>
         </li>
             </ul> 
+        </div>
+        <div class="mobile-menu is-open" data-menu>
+            <div class="mobile-menu_conteiner">
+            <button class="mobile-menu_close-btn" data-menu-close>
+                <svg class="mobile-menu_close-icon" width="40" height="40">
+                    <use href="./images/svg1-2-3/symbol-defs.svg#icon-cloes-modalsvg"></use>
+                </svg>
+            </button>
+            <ul class="mobaile-menu_ul">
+                <li class="mobaile-menu_li">
+                    <a class="mobaile-menu_a" href="./index.html">Студія</a>
+                </li>
+                <li class="mobaile-menu_li">
+                    <a class="mobaile-menu_a" href="./portfolio.html">Портфоліо</a>
+                </li>
+                <li class="mobaile-menu_li">
+                    <a class="mobaile-menu_a" href="#">Контакти</a>
+                </li>
+            </ul>
+
+            <ul class="mobaile-menu_contact">
+                <li class="mobaile-menu_contact_number">+38 096 111 11 11</li>
+                <li class="mobaile-menu_contact_maill">info@devstudio.com</li>
+            </ul>
+            <ul class="mobaile-menu-social">
+                <li class="mobaile-menu-social_li">
+                    <a class="mobaile-menu-social_li_a" href="#">
+                        <div class="text">Instagram</div></a>
+                </li>
+                <li class="mobaile-menu-social_li">
+                    <a class="mobaile-menu-social_li_a" href="#">
+                        <div class="text">Twitter</div></a>
+                </li>
+                <li class="mobaile-menu-social_li">
+                    <a class="mobaile-menu-social_li_a" href="#">
+                        <div class="text">Facebook</div></a>
+                </li>
+                <li class="mobaile-menu-social_li">
+                    <a class="mobaile-menu-social_li_a" href="#">
+                        <div class="text_div">LinkedIn</div></a>
+                </li>
+            </ul>
+        </div>
         </div>
         </header>
         <main>
@@ -525,6 +568,7 @@
           
     </div>
   <!---------------------------------/MODAL-WIND-->
+  <script src="./js/mobile-menu.js"></script>
   <script src="./js/modal.js"></script>
     </body>
 </html>

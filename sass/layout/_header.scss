@@ -1,3 +1,28 @@
+//0px-1199px 
+@media screen and (max-width: 1199px) {
+    .contact-phoun-number {
+        display: none;
+    }
+    
+}
+//0px-767px
+@media screen and (max-width: 767px) {
+    .menu_item {
+  display: none;
+    }
+    .contact_1 {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .nav {
+        display: flex;
+        align-items: center;
+    }
+
+    
+}
 .page_header {
     border-width: 0 0 1rem 0;
     border: #ececec;
@@ -6,6 +31,8 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
+        padding: 10px;
+        margin-left: 15px;
     }
     
     .nav {
@@ -37,6 +64,7 @@
     .menu_ul {
         display: flex;
         align-items: center;
+        
     }
     .menu-link:hover,
     .menu-link:focus {
@@ -153,6 +181,7 @@
  }
 .contact_1 {
 margin-right: 30px;
+
 }
 
 .contact_1 {
@@ -191,4 +220,3 @@ margin-right: 30px;
 .current {
     color:var(--knob-color)
 }
-
