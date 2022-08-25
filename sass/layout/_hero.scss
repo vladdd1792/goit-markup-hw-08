@@ -157,6 +157,16 @@ letter-spacing: 0.03em;
 
 color: #757575;
 }
+
+.photo_section {
+
+    @media screen and (max-width: 1199px) {
+        display: none;
+    }
+}
+
+
+
 /*.text1 {
     padding-top: 94px; 
   }
