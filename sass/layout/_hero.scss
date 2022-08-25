@@ -23,6 +23,8 @@
 }
 
 
+
+
 .hero {
     background-color: var(--text-color);
     text-align: center;
@@ -67,8 +69,9 @@
         background-image: url("../images/hero/title@x2.jpg");
     }
 }
-
-
+.text1 {
+    padding-top: 60px;
+  }
 .text {
     display: flex;
     flex-direction: column;
@@ -87,7 +90,7 @@
 
 .text_li {
 
-    max-width: 450px;
+    max-width: 400px;
     @media screen and (min-width: 768px) and (max-width: 1199px) {
         width: 354px;
       }
@@ -100,9 +103,8 @@
 }
 
 .satellite {
-
     display: flex;
-width: 450px;
+width: 400px;
 height: 120px;
 left: 15px;
 top: 520px;
