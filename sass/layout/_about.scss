@@ -1,118 +1,108 @@
-@media screen and (max-width: 1199px) {
-  .team {
-    margin-bottom: 30px;
-    font-size: 28px;
-    line-height: 1.17;
-  }
+.employes-section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+    background: #F5F4FA;
 }
+.name-position {
+    padding-top: 30px;
+  padding-bottom: 30px;
+}
+.suptitle {
+    font-family: 'Roboto', sans-serif;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.18;
+text-align: center;
+letter-spacing: 0.03em;
+
+color: var(--text-color);
+margin: 10px;
+}
+.suptitles {
+    font-family: 'Roboto', sans-serif;
+font-size: 16px;
+line-height: 1.18;
+/* identical to box height */
+
+text-align: center;
+letter-spacing: 0.03em;
+
+color: var(--mail-color);
+margin-bottom: 16px;
+}
+.employes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.employes-card {
+
+    background: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+
+
 
 .team {
-  font-family: "Roboto", sans-serif;
-  font-size: 36px;
-  line-height: 1.16;
-  text-align: center;
-  letter-spacing: 0.03em;
+    font-family: 'Roboto', sans-serif;
+font-size: 36px;
+line-height: 1.16;
+text-align: center;
+letter-spacing: 0.03em;
 
-  color: var(--text-color);
-  margin-bottom: 50px;
+color: var(--text-color);
+margin-bottom: 50px;
 }
 
-// /*.employes-section {
-//     padding-top: 94px;
-//     padding-bottom: 94px;
-//     background: #F5F4FA;
-// }
-// .name-position {
-//     padding-top: 30px;
-//   padding-bottom: 30px;
-// }
-// .suptitle {
-//     font-family: 'Roboto', sans-serif;
-// font-weight: 500;
-// font-size: 16px;
-// line-height: 1.18;
-// text-align: center;
-// letter-spacing: 0.03em;
+.produkt {
+    font-family: 'Roboto', sans-serif;
+font-size: 16px;
+line-height: 1.19px;
+/* identical to box height */
 
-// color: var(--text-color);
-// margin: 10px;
-// }
-// .suptitles {
-//     font-family: 'Roboto', sans-serif;
-// font-size: 16px;
-// line-height: 1.18;
+text-align: center;
+letter-spacing: 0.03em;
 
-// text-align: center;
-// letter-spacing: 0.03em;
+color: var(--mail-color);
+}
 
-// color: var(--mail-color);
-// margin-bottom: 16px;
-// }
+.olga {
+    font-family: 'Roboto', sans-serif;
+font-size: 16px;
+line-height: 1.19;
+/* identical to box height */
 
-// /*
-// .employes {
-//     display: flex;
-//     flex-wrap: wrap;
-//     justify-content: space-between;
-// }
-// .employes-card {
+text-align: center;
+letter-spacing: 0.03em;
 
-//     background: #FFFFFF;
-//     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-//     border-radius: 0px 0px 4px 4px;
-// }
+color: var(--knob-color);
+}
 
-// .team {
-//     font-family: 'Roboto', sans-serif;
-// font-size: 36px;
-// line-height: 1.16;
-// text-align: center;
-// letter-spacing: 0.03em;
+.nik {
+    font-family: 'Roboto', sans-serif;
+font-size: 16px;
+line-height: 1.19;
+/* identical to box height */
 
-// color: var(--text-color);
-// margin-bottom: 50px;
-// }
+text-align: center;
+letter-spacing: 0.03em;
 
-// .produkt {
-//     font-family: 'Roboto', sans-serif;
-// font-size: 16px;
-// line-height: 1.19px;
+color: var(--text-color);
+}
 
-// text-align: center;
-// letter-spacing: 0.03em;
+.mih {
+    font-family: 'Roboto', sans-serif;
+font-size: 16px;
+line-height: 1.19;
+/* identical to box height */
 
-// color: var(--mail-color);
-// }
+text-align: center;
+letter-spacing: 0.03em;
 
-// .olga {
-//     font-family: 'Roboto', sans-serif;
-// font-size: 16px;
-// line-height: 1.19;
+color: var(--text-color);
+}
 
-// text-align: center;
-// letter-spacing: 0.03em;
 
-// color: var(--knob-color);
-// }
 
-// .nik {
-//     font-family: 'Roboto', sans-serif;
-// font-size: 16px;
-// line-height: 1.19;
 
-// text-align: center;
-// letter-spacing: 0.03em;
-
-// color: var(--text-color);
-// }
-
-// .mih {
-//     font-family: 'Roboto', sans-serif;
-// font-size: 16px;
-// line-height: 1.19;
-
-// text-align: center;
-// letter-spacing: 0.03em;
-
-// color: var(--text-color);
-// }

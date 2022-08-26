@@ -1,33 +1,4 @@
 .section {
     padding-top: 94px;
     padding-bottom: 94px;
-
-    @media screen and (min-width: 1199px) {
-        padding-top: 94px;
-        padding-bottom: 94px;
-      }
-}
-
-.text1 {
-  padding-top: 60px;
-}
-
-@media screen and (max-width: 1199px) {
-  .team {
-  margin-bottom: 30px;
-  font-size: 28px;
-  line-height: 1.17;
-  }
-
-}
-
-.team {
-  font-family: 'Roboto', sans-serif;
-font-size: 36px;
-line-height: 1.16;
-text-align: center;
-letter-spacing: 0.03em;
-
-color: var(--text-color);
-margin-bottom: 50px;
 }
