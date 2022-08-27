@@ -1,13 +1,22 @@
 .text1 {
     padding-top: 94px; 
   }
-  .text {
-  
+
+  @media screen and (min-width: 480px){
+    .text {
+       display: block;
+    }
+   
+   } 
+
+ .text {
+
    display: flex;
    justify-content: space-between;
    gap: 30px;
-  
+
   }
+
   .photo_section {
       padding-top: 94px;
       padding-bottom: 94px;

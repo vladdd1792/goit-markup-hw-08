@@ -1,3 +1,11 @@
+
+
+ @media screen and (max-width: 480px){
+    .menu_ul {
+        display: none;
+    }
+   } 
+/*
 .page_header {
     border-width: 0 0 1rem 0;
     border: #ececec;
@@ -8,7 +16,7 @@
         justify-content: space-between;
     }
     
-    .nav {
+.nav {
         display: flex;
         align-items: center;
     }
@@ -33,7 +41,7 @@
         color: #757575;
         margin-right: 50px;
     }
-    
+
     .menu_ul {
         display: flex;
         align-items: center;
@@ -192,3 +200,4 @@ margin-right: 30px;
     color:var(--knob-color)
 }
 
+*/
