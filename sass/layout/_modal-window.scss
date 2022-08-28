@@ -1,0 +1,244 @@
+.bacdrop {
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+   
+    background: rgba(0, 0, 0, 0.2);
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &.is-hidden {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+}
+}
+
+
+.modall-btm {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 40px;
+    width: 528px;
+    height: 581px;
+    background-color: #FFFFFF;
+}
+
+
+
+
+.modal-btm-form {
+    margin-top: 12px;
+}
+
+.modal_btm_p {
+    font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 23px;
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #212121;
+
+}
+
+
+.modal-name,
+.modal-phone,
+.modal-maill,
+.modal-coment {
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-size: 12px;
+line-height: 1.17;
+padding-bottom: 4px;
+letter-spacing: 0.01em;
+
+color: #757575;
+
+}
+
+.modal-btm-name,
+.modal-btm-phone,
+.modal-btm-maill,
+.modal-btm-coment {
+margin-bottom: 10px;
+
+}
+
+.modal-btm-coment {
+    width: 100%;
+    height: 120px;
+    padding: 12px;
+    padding-left: 16px;
+    padding-right: 16px;
+    resize: none;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.01em;
+
+color: rgba(117, 117, 117, 0.5);
+
+ &:focus {
+    outline: none;
+    border-color: var(--knob-color);
+    }
+
+}
+
+
+.input-btm {
+    width: 448px;
+    height: 40px;
+    left: 576px;
+    top: 314px;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+border-radius: 4px;
+margin-bottom: 10px;
+padding-left: 42px;
+transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+ &:focus {
+    outline: none;
+    border-color: var(--knob-color);
+}
+ &:focus +.modal-btm-spann {
+    fill: var(--knob-color);
+}
+
+}
+
+
+.input-btm-s {
+    width: 448px;
+    height: 120px;
+    left: 576px;
+    top: 314px;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+border-radius: 4px;
+}
+.text-modal-footer {
+    font-family: 'Roboto', sans-serif;
+font-weight: 400;
+font-size: 14px;
+line-height: 2.0;
+letter-spacing: 0.03em;
+
+color: #757575;
+
+}
+
+.modal-icon-icon {
+    color: #212121;
+}
+
+.zgoda {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.input-zgody {
+    width: 1px;  
+    height: 1px; 
+     margin: -1px;  
+     border: 0;  
+     padding: 0;  
+     white-space: nowrap;  
+     clip-path: inset(100%);  
+     clip: rect(0 0 0 0);  
+     overflow: hidden;  
+     position: absolute;
+     
+     &:checked + .span-zgody {
+    background-color: #2196F3;
+    color: #F5F4FA;
+    background-image: url(../images/modal-wind-ikon/symbol-defs.svg#icon-gal);
+    background-position: center;
+    background-size: contain;
+    background-origin: border-box;
+    padding-left: 1px;
+}
+}
+
+.span-zgody {
+    display: flex;
+    width: 15px;
+    height: 15px;
+    border: 1px solid #212121; 
+    border-radius: 2px;
+    margin-right: 7px;
+    align-items: center;
+   
+    
+}
+
+
+.svg-zgody {
+    fill: #FFFFFF;
+}
+
+.umowa {
+    color: #188CE8;
+    text-decoration: underline;
+}
+
+
+
+
+
+.modall-btm-b2-span {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 30px;
+/* identical to box height, or 188% */
+text-align: center;
+letter-spacing: 0.06em;
+color: #FFFFFF;
+}
+
+.input-zgody {
+    width: 16px;
+    height: 15px;
+    margin-right: 7px;
+
+}
+
+.umowa-zgody {
+    margin-top: 5px;
+}
+
+.modal-btm-spann {
+    display: block;
+    width: 12px;
+    height: 12px;
+    color: #212121;
+    position: absolute;
+    top: 50%;
+    left: 12px;
+    transform: translate(0%,-90%);
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1)
+
+    
+}
+.modal-btm-spann:focus {
+    fill: var(--knob-color);
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1)
+}
+
+
+.modal-btm-div {
+    position: relative;
+}

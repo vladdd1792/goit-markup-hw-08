@@ -11,18 +11,19 @@
         <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css">
          <link rel="stylesheet" href="./css/main.min.css"/>
+         
        
     </head>
     
     <body>
         <!--HEADER--> 
         <header class="page_header"> 
-            <div class="page_header container">
+            <div class="container page_header-container">
             <nav class="nav">
-            <a href=""  class="logotipe-title">
+            <a href="#"  class="logotipe-title">
                 <span class="logotipe_blue">Web</span><span class="logotip_black">Studio</span> 
             </a>
-            <ul class="menu_ul list">
+            <ul class="menu_ul">
                 <li class="menu_item">
                     <a class="menu-li current link" href="./index.html">Студія</a>
                 </li>
@@ -34,10 +35,11 @@
                 </li>
             </ul>
            </nav>
-           <button type="button" class="mobile-menu-open" data-menu-open>
-            <svg class="mobile-menu-icon" width="40px" height="40px">
-                <use href="./images/svg1-2-3/symbol-defs.svg#icon-menu_24px"></use>
+           <button  type="button" class="mobile-menu-open" data-menu-open>
+            <svg class="mobile-menu-open_icon" width="30" height="30">
+                <use href="./images/svg1-2-3/symbol-defs.svg#burger-icon"></use>
             </svg>
+            </use>
            </button>
            <ul class="contact">
             <li class="contact_1">
@@ -62,53 +64,48 @@
             </a>
         </li>
             </ul> 
-            <div class="mobile-menu" data-menu>
-                <div class="mobile-menu_conteiner">
-                    <button class="mobile-menu_close-btn" data-menu-close>
-                        <svg class="mobile-menu_close-btn-1" width="40" height="40">
-                            <use href="./images/svg1-2-3/symbol-defs.svg#icon-cloes-modalsvg"></use> 
-                        </svg>
-                    </button>
-                    <ul class="mobail-menu_ul">
-                        <li class="mobail-menu_li">
-                            <a class="mobail-menu_li_a" href="./index.html">Студія</a>
-                        </li>
-                        <li class="mobail-menu_li">
-                            <a class="mobail-menu_li_a" href="./portfolio.html">Портфоліо</a>
-                        </li>
-                        <li class="mobail-menu_li">
-                            <a class="mobail-menu_li_a" href="#">Контакти</a>
-                        </li>
+        </div>
+        <div class="mobile-menu" data-menu>
+            <div class=" mobile-menu_conteiner">
+            <button class="mobile-menu_close-btn" data-menu-close>
+                <svg class="mobile-menu_close-icon" width="20" height="20">
+                    <use href="./images/svg1-2-3/symbol-defs.svg#icon-cloes-modalsvg"></use>
+                </svg>
+            </button>
+            <ul class="mobaile-menu_ul">
+                <li class="mobaile-menu_li">
+                    <a class="mobaile-menu_a" href="./index.html">Студія</a>
+                </li>
+                <li class="mobaile-menu_li">
+                    <a class="mobaile-menu_a" href="./portfolio.html">Портфоліо</a>
+                </li>
+                <li class="mobaile-menu_li">
+                    <a class="mobaile-menu_a" href="#">Контакти</a>
+                </li>
+            </ul>
 
-                    </ul>
-                    <ul class="mobail-menu_contact">
-                        <li class="mobail-menu_contact_number">+38 096 111 11 11</li>
-                        <li class="mobail-menu_contact_maill">info@devstudio.com</li>
-                    </ul>
-                    <ul class="mobail-menu_social">
-                        <li class="mobail-menu_social_li">
-                            <a class="mobail-menu_social_li" href="#">
-                                <div class="mobail_text">Instagram</div>
-                            </a>
-                        </li>
-                        <li class="mobail-menu_social_li">
-                            <a class="mobail-menu_social_li" href="#">
-                                <div class="mobail_text">Twitter</div>
-                            </a>
-                        </li>
-                        <li class="mobail-menu_social_li">
-                            <a class="mobail-menu_social_li" href="#">
-                                <div class="mobail_text">Facebook</div>
-                            </a>
-                        </li>
-                        <li class="mobail-menu_social_li">
-                            <a class="mobail-menu_social_li" href="#">
-                                <div class="mobail_text">LinkedIn</div>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
+            <ul class="mobaile-menu_contact">
+                <li class="mobaile-menu_contact_number">+38 096 111 11 11</li>
+                <li class="mobaile-menu_contact_maill">info@devstudio.com</li>
+            </ul>
+            <ul class="mobaile-menu-social">
+                <li class="mobaile-menu-social_li">
+                    <a class="mobaile-menu-social_li_a" href="#">
+                        <div class="mobaile-text">Instagram</div></a>
+                </li>
+                <li class="mobaile-menu-social_li">
+                    <a class="mobaile-menu-social_li_a" href="#">
+                        <div class="mobaile-text">Twitter</div></a>
+                </li>
+                <li class="mobaile-menu-social_li">
+                    <a class="mobaile-menu-social_li_a" href="#">
+                        <div class="mobaile-text">Facebook</div></a>
+                </li>
+                <li class="mobaile-menu-social_li">
+                    <a class="mobaile-menu-social_li_a" href="#">
+                        <div class="mobaile-text">LinkedIn</div></a>
+                </li>
+            </ul>
         </div>
         </header>
         <main>
@@ -116,8 +113,8 @@
             <!--<section class="hero">
                <h1 class="page_title">Ефективні рішення для вашого бізнесу</h1>
                <button  class="modal-btn" type="button" data-modal-open>Замовити послугу</button>
-            </section>-->
-         <!--<section class="text1">
+            </section> 
+         <section class="text1">
             <h2 hidden> Наши достоинства</h2>
             <div class="container">
             <ul class="text">
@@ -159,8 +156,8 @@
                 </li>
             </ul>
             </div>
-            </section>-->
-            <!--<section class="photo_section">
+            </section>--->
+           <!--<section class="photo_section">
                 <div class="container">
                 <h2 class="work">Чим ми займаємося</h2>
                 <ul class="work_photo">
@@ -340,8 +337,8 @@
                    
                 </ul>
             </div>
-            </section>
-            <section class="section">
+            </section>-->
+            <!--<section class="section">
                 <div class="container">
                     <h2 class="client-title">Постійні клієнти</h2>
                     <ul class="client-list list">
@@ -397,9 +394,9 @@
                     </ul>
 
                 </div>
-            </section>
-        </main> 
-        <!ABOUT-->
+            </section>!-->
+        <!--</main> 
+        <!--ABOUT-->
         <!--FOOTER-->
         <!--<footer class="footer">
                 <div class="container footer_div">
@@ -482,8 +479,8 @@
             </div>
                 </div>
           
-        </footer>
-      <!FOOTER-->
+        </footer>-->
+      <!--FOOTER-->
   <!---------------------------------MODAL-WIND-->
     <!--<div class="bacdrop is-hidden"data-modal>
         <div class="modall-btm">
@@ -570,9 +567,7 @@
           
     </div>-->
   <!---------------------------------/MODAL-WIND-->
- <!----<script src="./js/modal.js"></script>!-->
- <script src="./js/mobile-menu.js"></script>
- <script src="./js/modal.js"></script>
+  <script src="./js/mobile-menu.js"></script>
+  <script src="./js/modal.js"></script>
     </body>
-    
 </html>
