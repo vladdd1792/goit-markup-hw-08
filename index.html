@@ -11,14 +11,13 @@
         <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css">
          <link rel="stylesheet" href="./css/main.min.css"/>
-         
        
     </head>
     
     <body>
         <!--HEADER--> 
         <header class="page_header"> 
-            <div class="container page_header">
+            <div class="page_header container">
             <nav class="nav">
             <a href=""  class="logotipe-title">
                 <span class="logotipe_blue">Web</span><span class="logotip_black">Studio</span> 
@@ -35,21 +34,11 @@
                 </li>
             </ul>
            </nav>
-           <button type="button" class="mobile-menu-open">
+           <button type="button" class="mobile-menu-open" data-menu-open>
             <svg class="mobile-menu-icon" width="40px" height="40px">
                 <use href="./images/svg1-2-3/symbol-defs.svg#icon-menu_24px"></use>
             </svg>
-
            </button>
-           <ul class="">
-            <li class=""></li>
-            <li class=""></li>
-            <li class=""></li>
-           </ul>
-           <ul class="">
-            <li class=""></li>
-            <li class=""></li>
-           </ul>
            <ul class="contact">
             <li class="contact_1">
                 <a class="contact_maill"  href="mailto:info@devstudio.com">
@@ -73,6 +62,53 @@
             </a>
         </li>
             </ul> 
+            <div class="mobile-menu" data-menu>
+                <div class="mobile-menu_conteiner">
+                    <button class="mobile-menu_close-btn" data-menu-close>
+                        <svg class="mobile-menu_close-btn" width="40" height="40">
+                            <use href="./images/svg1-2-3/symbol-defs.svg#icon-cloes-modalsvg"></use> 
+                        </svg>
+                    </button>
+                    <ul class="mobail-menu_ul">
+                        <li class="mobail-menu_li">
+                            <a class="mobail-menu_li_a" href="./index.html">Студія</a>
+                        </li>
+                        <li class="mobail-menu_li">
+                            <a class="mobail-menu_li_a" href="./portfolio.html">Портфоліо</a>
+                        </li>
+                        <li class="mobail-menu_li">
+                            <a class="mobail-menu_li_a" href="#"></a>
+                        </li>
+
+                    </ul>
+                    <ul class="mobail-menu_contact">
+                        <li class="mobail-menu_contact_number">+38 096 111 11 11</li>
+                        <li class="mobail-menu_contact_maill">info@devstudio.com</li>
+                    </ul>
+                    <ul class="mobail-menu_social">
+                        <li class="mobail-menu_social_li">
+                            <a class="mobail-menu_social_li" href="#">
+                                <div class="mobail_text">Instagram</div>
+                            </a>
+                        </li>
+                        <li class="mobail-menu_social_li">
+                            <a class="mobail-menu_social_li" href="#">
+                                <div class="mobail_text">Twitter</div>
+                            </a>
+                        </li>
+                        <li class="mobail-menu_social_li">
+                            <a class="mobail-menu_social_li" href="#">
+                                <div class="mobail_text">Facebook</div>
+                            </a>
+                        </li>
+                        <li class="mobail-menu_social_li">
+                            <a class="mobail-menu_social_li" href="#">
+                                <div class="mobail_text">LinkedIn</div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
         </header>
         <main>
