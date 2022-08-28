@@ -1,7 +1,9 @@
-.mobile-menu {
+@media screen and (max-width: 768px) {
+    .mobile-menu {
     position: fixed;
     width: 100%;
     height: 100%;
+    
     z-index: 1000;
     top: 0;
     left: 0;
@@ -36,7 +38,7 @@
     font-family: 'Roboto', sans-serif;
 font-weight: 500;
 font-size: 40px;
-line-height: 1.61;
+line-height: 1.17;
 letter-spacing: 0.02em;
 
 color: #212121;
@@ -46,7 +48,7 @@ color: #212121;
 }
 
 .mobaile-menu_contact {
-    padding-top: 280px;
+    padding-top: 100px;
 }
 
 
@@ -54,7 +56,7 @@ color: #212121;
     font-family: 'Roboto', sans-serif;
 font-weight: 500;
 font-size: 34px;
-line-height: 40px;
+line-height: 1.17;
 
 letter-spacing: 0.02em;
 
@@ -66,7 +68,7 @@ padding-bottom: 32px;
     font-family: 'Roboto', sans-serif;
 font-weight: 500;
 font-size: 24px;
-line-height: 28px;
+line-height: 1.16;
 letter-spacing: 0.02em;
 
 color: #757575;
@@ -97,3 +99,12 @@ letter-spacing: 0.02em;
 
 color: #2196F3;
 }
+}
+
+@media screen and (min-width: 768px) {
+    .mobile-menu {
+        display: none;
+    }
+    
+}
+
