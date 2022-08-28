@@ -13,5 +13,24 @@
     visibility: hidden;
     pointer-events: none;
     transition: opacity 250ms linear,visibility 250ms linear;
-    }
+
+   }
 }
+
+@media screen and (max-width: 767px){
+.mobaile-menu_li {
+    margin-bottom: 35px;
+}
+
+.mobaile-menu_a {
+    font-family: "Roboto",sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 1.61;
+    letter-spacing: .02em;
+    color: #212121;
+}
+
+}
+
+

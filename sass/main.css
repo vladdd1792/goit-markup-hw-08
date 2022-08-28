@@ -253,6 +253,25 @@ button {
     transition: opacity 250ms linear, visibility 250ms linear;
   }
 }
+@media screen and (max-width: 767px) {
+  .mobaile-menu_li {
+    margin-bottom: 35px;
+  }
+  .mobaile-menu_a {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 1.61;
+    letter-spacing: 0.02em;
+    color: #212121;
+  }
+}
+@media screen and (min-width: 768px) {
+  .nav {
+    display: flex;
+    align-items: center;
+  }
+}
 @media screen and (max-width: 1200px) {
   .contact {
     display: none;
@@ -263,6 +282,10 @@ button {
     display: none;
   }
 }
+.mobile-menu-open {
+  background-color: transparent;
+}
+
 .page_header {
   display: flex;
   align-items: center;
@@ -468,11 +491,6 @@ margin-right: 30px;
   padding-top: 94px;
 }
 
-@media screen and (min-width: 480px) {
-  .text {
-    display: block;
-  }
-}
 .text {
   display: flex;
   justify-content: space-between;
@@ -906,7 +924,7 @@ li {
 }
 @media screen and (min-width: 480px) {
   .container {
-    width: 480px;
+    width: 450px;
   }
 }
 @media screen and (min-width: 768px) {

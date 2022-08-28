@@ -1,3 +1,13 @@
+
+
+@media screen and (min-width: 768px) {
+    .nav {
+        display: flex;
+        align-items: center;
+    }
+
+    
+}
 @media screen and (max-width: 1200px){
     .contact {
         display: none;
@@ -11,7 +21,9 @@
     }
 
 }
-
+.mobile-menu-open {
+    background-color: transparent;
+}
 .page_header {
     display: flex;
     align-items: center;
