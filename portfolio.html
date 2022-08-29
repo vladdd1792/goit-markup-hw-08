@@ -17,7 +17,7 @@
     <header class="page-header">
    <div class="container page-header-container">
     <nav class="page-nav">
-        <a href=""  class="logotipe_title"  >
+        <a href="#"  class="logotipe_title">
             <span class="logotipe-blue">Web</span><span class="logotip-black">Studio</span> 
         </a>
         <ul class="menu-ul-header">
@@ -32,8 +32,9 @@
             </li>
         </ul>
         </nav>
-        <button  type="button" class="mobile-menu-open">
-            <svg class="mobile-menu-open_icon" width="40" height="40">
+
+        <button  type="button" class="mobile-menu-open" data-menu-open>
+            <svg class="mobile-menu-open_icon" width="30" height="30">
                 <use href="./images/svg1-2-3/symbol-defs.svg#burger-icon"></use>
             </svg>
             </use>
@@ -63,10 +64,52 @@
     </li>
         </ul> 
     </div>
+    <div class="mobile-menu_portfolio" data-menu>
+        <div class="container mobile-menu_conteiner_portfolio">
+        <button type="button" class="mobile-menu_close-btn_portfolio" data-menu-close>
+            <svg class="mobile-menu_close-portfolio_icon" width="20" height="20">
+                <use href="./images/svg1-2-3/symbol-defs.svg#icon-cloes-modalsvg"></use>
+            </svg>
+        </button>
+        <ul class="mobaile-menu_ul_portfolio">
+            <li class="mobaile-menu-portfolio_li">
+                <a class="mobaile-menu-portfolio_a" href="./index.html">Студія</a>
+            </li>
+            <li class="mobaile-menu-portfolio_li">
+                <a class="mobaile-menu-portfolio_a" href="./portfolio.html">Портфоліо</a>
+            </li>
+            <li class="mobaile-menu-portfolio_li">
+                <a class="mobaile-menu-portfolio_a" href="#">Контакти</a>
+            </li>
+        </ul>
+
+        <ul class="mobaile-menu-contact">
+            <li class="mobaile-menu_contact_number">+38 096 111 11 11</li>
+            <li class="mobaile-menu_contact_maill">info@devstudio.com</li>
+        </ul>
+        <ul class="mobaile-menu-social">
+            <li class="mobaile-menu-social_li">
+                <a class="mobaile-menu-social_li_a" href="#">
+                    <div class="mobaile-text">Instagram</div></a>
+            </li>
+            <li class="mobaile-menu-social_li">
+                <a class="mobaile-menu-social_li_a" href="#">
+                    <div class="mobaile-text">Twitter</div></a>
+            </li>
+            <li class="mobaile-menu-social_li">
+                <a class="mobaile-menu-social_li_a" href="#">
+                    <div class="mobaile-text">Facebook</div></a>
+            </li>
+            <li class="mobaile-menu-social_li">
+                <a class="mobaile-menu-social_li_a" href="#">
+                    <div class="mobaile-text">LinkedIn</div></a>
+            </li>
+        </ul>
+    </div>
     </header>
 <!--HEADER-->
 <!--HERO---->
-    <main class="porfolio-page">
+    <!--<main class="porfolio-page">
         <section class="section section-project">
             <div class="container">
             <h1 hidden>Кнопки</h1>
@@ -209,10 +252,10 @@
                 </li>
                </ul>
         </section>
-    </main>
+    </main>-->
 <!--HERO---->
 <!--FOOTER-->
-<footer class="footer">
+<!--<footer class="footer">
     <div class="container logotipe_end">
         <div class="logotipe_div_2"
     <a class="logo-footer"  href="#">
@@ -293,7 +336,8 @@
 </div>
     </div>
 
-</footer>
+</footer>-->
+<script src="./js/mobile-menu.js"></script>
 </body>
 </html>
 <!--FOOTER-->

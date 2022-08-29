@@ -1,0 +1,45 @@
+@media screen and (max-width: 768px) {
+    .mobile-menu_portfolio {
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            
+            z-index: 1000;
+            top: 0;
+            left: 0;
+        
+            background: white;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 2px 4px rgba(0, 0, 0, 0.08), 0px 1px 3px rgba(0, 0, 0, 0.16);
+        
+            
+            pointer-events: none;
+            transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        
+    }
+
+    .mobile-menu_conteiner_portfolio{
+        position: relative;
+    padding-left: 40px;
+    padding-top: 48px;
+    padding-bottom: 48px;
+    }
+
+    .mobaile-menu-portfolio_li{
+        padding-bottom: 35px;
+    }
+
+    .mobaile-menu-portfolio_a{
+        font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+        font-size: 40px;
+        line-height: 1.17;
+        letter-spacing: 0.02em;
+        
+        color: #212121;
+    }
+
+    .mobaile-menu-portfolio_a:hover,.mobaile-menu-portfolio_a:focus { 
+        color: #2196F3;
+    }  
+
+} 
