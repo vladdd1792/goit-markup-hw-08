@@ -766,7 +766,6 @@ button {
     display: flex;
     justify-content: center;
     gap: 30px;
-    margin-top: 50px;
   }
 }
 @media screen and (max-width: 1200px) {
@@ -793,7 +792,8 @@ button {
     display: flex;
     justify-content: center;
     gap: 30px;
-    margin-top: 50px;
+    flex-wrap: wrap;
+    flex-basis: 100%;
   }
 }
 @media (min-device-pixel-ratio: 2) and (max-width: 1200px), (min-resolution: 192dpi) and (max-width: 1200px), (min-resolution: 2dppx) and (max-width: 1200px) {
@@ -828,8 +828,8 @@ button {
     display: flex;
     justify-content: center;
     gap: 30px;
-    margin-top: 50px;
-    flex-direction: column;
+    flex-wrap: wrap;
+    flex-basis: 100%;
   }
 }
 @media (min-device-pixel-ratio: 2) and (max-width: 768px), (min-resolution: 192dpi) and (max-width: 768px), (min-resolution: 2dppx) and (max-width: 768px) {
@@ -1734,14 +1734,31 @@ li {
   color: var(--knob-color);
 }
 
-.photo-top {
-  display: flex;
-  flex-wrap: wrap;
-  margin-top: 50px;
-  gap: 30px;
-  background: #FFFFFF;
+@media screen and (max-width: 1600px) {
+  .photo-top {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    gap: 30px;
+    background: #FFFFFF;
+  }
 }
-
+@media screen and (max-width: 1200px) {
+  .photo-top {
+    margin-top: 50px;
+    gap: 30px;
+    background: #FFFFFF;
+  }
+}
+@media screen and (max-width: 768px) {
+  .photo-top {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    gap: 30px;
+    background: #FFFFFF;
+  }
+}
 .section-project {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -1889,7 +1906,7 @@ li {
 }
 
 .logotipe_end {
-  /* display: flex; */
+  display: flex;
   align-items: baseline;
 }
 
@@ -2052,15 +2069,35 @@ li {
   border-color: var(--whitey-color);
 }
 
-.menu-but {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 8px;
-  margin-bottom: 34;
+@media screen and (max-width: 768px) {
+  .menu-but {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 34;
+  }
 }
-
+@media screen and (min-width: 768px) {
+  .menu-but {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 34;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .menu-but {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 34;
+  }
+}
 .button_li {
   font-family: "Roboto";
   font-style: normal;

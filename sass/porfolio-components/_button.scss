@@ -1,11 +1,39 @@
-.menu-but {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 8px;
-    margin-bottom: 34;
+@media screen and (max-width: 768px) {
+    .menu-but {
+        display: flex;
+        align-items: center;
+        
+        flex-wrap: wrap;
+        gap: 8px;
+        margin-bottom: 34;
+    }
+    
 }
+
+@media screen and (min-width: 768px) {
+    .menu-but {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 8px;
+        margin-bottom: 34;
+    }
+    
+}
+
+@media screen and (min-width: 1200px) {
+    .menu-but {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 8px;
+        margin-bottom: 34;
+    }
+    
+}
+
 
 .button_li {
     font-family: 'Roboto';

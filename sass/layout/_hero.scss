@@ -258,7 +258,6 @@ color: var(--mail-color);
         display: flex;
         justify-content: center;
         gap: 30px;
-        margin-top: 50px;
     }
 
   }
@@ -295,8 +294,11 @@ color: var(--mail-color);
         display: flex;
         justify-content: center;
         gap: 30px;
-        margin-top: 50px;
+        flex-wrap: wrap;
+        flex-basis: calc(100%);
     }
+
+    
 }
 
 @media (min-device-pixel-ratio: 2) and (max-width: 1200px),
@@ -340,8 +342,8 @@ color: var(--mail-color);
         display: flex;
         justify-content: center;
         gap: 30px;
-        margin-top: 50px;
-        flex-direction: column;
+        flex-wrap: wrap;
+        flex-basis: calc(100%);
     }
     
 }
