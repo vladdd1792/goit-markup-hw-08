@@ -7,6 +7,11 @@
         gap: 8px;
         margin-bottom: 34;
     }
+    .button-div-podpis {
+        display: flex;
+        columns: 2;
+        margin-left: 12px;
+    }
     
 }
 
@@ -19,6 +24,10 @@
         gap: 8px;
         margin-bottom: 34;
     }
+    .button-div-podpis {
+        display: flex;
+    margin-left: 12px;
+}
     
 }
 
@@ -30,6 +39,9 @@
         flex-wrap: wrap;
         gap: 8px;
         margin-bottom: 34;
+    }
+    .button-div-podpis {
+        margin-left: 12px;
     }
     
 }
@@ -66,9 +78,7 @@
 }
 }
 
-.button-div-podpis {
-    margin-left: 12px;
-}
+
 
 .button-podpis {
 width: 200px;
