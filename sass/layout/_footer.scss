@@ -1,8 +1,20 @@
-.footer {
-    padding-top: 60px;
-    padding-bottom: 60px;
-    background: #2F303A;
+@media screen and (min-width: 1200px) {
     
+.logotipe_blue_end {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19px; 
+    letter-spacing: 0.03em;
+    color:var(--knob-color);
+}
+.logotip_blake_end {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19px; 
+    letter-spacing: 0.03em;
+    color:rgb(255, 255, 246);
 }
 
 .footer_div_2 {
@@ -57,17 +69,7 @@
     color: #FFFFFF;
 }
 
-.contact_end {
-    font-family: 'Roboto', sans-serif;
-font-weight: 400;
-font-size: 14px;
-line-height: 1.71px;
 
-letter-spacing: 0.03em;
-color: rgba(255, 255, 255, 0.6);
-font-style: normal;
-
-}
 .cl21 {
     margin-bottom: 9px;
 }
@@ -145,7 +147,62 @@ padding-left: 16px;
 
 
 }
+    
+}
+
+@media screen and (min-width: 768px) {
+
+}
+
+@media screen and (max-width: 768px) {
+
+    .footer_div_2 {
+        text-align: center;
+    }
+    .ссс {
+        margin-right: 137px;
+    }
+
+    }
+
+    .logotipe_blue_end {
+        font-family: 'Raleway', sans-serif;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 1.16; 
+        letter-spacing: 0.03em;
+        color:var(--knob-color);
+        text-align: center;
+    }
+    .logotip_blake_end {
+        font-family: 'Raleway', sans-serif;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.19px; 
+        letter-spacing: 0.03em;
+        color:rgb(255, 255, 246);
+        text-align: center;
+    }
+
+   
+    
 
 
+.footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background: #2F303A;
+    
+}
 
+.contact_end {
+    font-family: 'Roboto', sans-serif;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71px;
 
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
+font-style: normal;
+
+}

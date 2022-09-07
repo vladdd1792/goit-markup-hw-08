@@ -17,7 +17,7 @@
     <header class="page-header">
    <div class="container page-header-container">
     <nav class="page-nav">
-        <a href=""  class="logotipe_title"  >
+        <a href="#"  class="logotipe_title">
             <span class="logotipe-blue">Web</span><span class="logotip-black">Studio</span> 
         </a>
         <ul class="menu-ul-header">
@@ -32,6 +32,13 @@
             </li>
         </ul>
         </nav>
+
+        <button  type="button" class="mobile-menu-open-p js-open-menu" >
+            <svg class="mobile-menu-open_icon" width="30" height="30">
+                <use href="./images/svg1-2-3/symbol-defs.svg#burger-icon"></use>
+            </svg>
+            </use>
+           </button>
         <ul class="contact">
         <li class="contact_li">
             <a class="contact-maill"  href="mailto:info@devstudio.com">
@@ -56,6 +63,48 @@
         </a>
     </li>
         </ul> 
+    </div>
+    <div class="mobile-menu_portfolio js-menu-container">
+        <div class="container mobile-menu_conteiner_portfolio">
+        <button type="button" class="mobile-menu_close-btn_portfolio js-close-menu">
+            <svg class="mobile-menu_close-portfolio_icon" width="20" height="20">
+                <use href="./images/svg1-2-3/symbol-defs.svg#icon-cloes-modalsvg"></use>
+            </svg>
+        </button>
+        <ul class="mobaile-porfolio">
+            <li class="portfolio-menu">
+                <a class="portfolio-menu_refernces" href="./index.html">Студія</a>
+            </li>
+            <li class="portfolio-menu">
+                <a class="portfolio-menu_refernces" href="./portfolio.html">Портфоліо</a>
+            </li>
+            <li class="portfolio-menu">
+                <a class="portfolio-menu_refernces" href="#">Контакти</a>
+            </li>
+        </ul>
+
+        <ul class="mobaile-contact">
+            <li class="mobaile-contact-phone">+38 096 111 11 11</li>
+            <li class="mobaile-contact-maill">info@devstudio.com</li>
+        </ul>
+        <ul class="mobaile-social">
+            <li class="mobaile-social_list">
+                <a class="mobaile-social_references" href="#">
+                    <div class="references-text">Instagram</div></a>
+            </li>
+            <li class="mobaile-social_list">
+                <a class="mobaile-social_references" href="#">
+                    <div class="references-text">Twitter</div></a>
+            </li>
+            <li class="mobaile-social_list">
+                <a class="mobaile-social_references" href="#">
+                    <div class="references-text">Facebook</div></a>
+            </li>
+            <li class="mobaile-social_list">
+                <a class="mobaile-social_references" href="#">
+                    <div class="references-text">LinkedIn</div></a>
+            </li>
+        </ul>
     </div>
     </header>
 <!--HEADER-->
@@ -83,14 +132,28 @@
             </ul>
             </div>
                 <h2 hidden>Картинки и опиание</h2>
-                <ul class="container photo-top">
+                <ul class="container photo-top list">
                 <li class="project-photo-top">
                     <div class="im-photo-text-div"> 
                         <a href="#" class="im-photo-text">
                          <p class="photo-text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.
                          </p>
-                         <img  class="imphoto" src="./images/portfolio/pipl.jpg" alt="" width="370" height="294">
-                    </div>
+                         <picture>
+                         <source srcset="
+                         ./images/portfolio/pipl/pipl-desc/pipl-desc(1).jpg 1x,
+                         ./images/portfolio/pipl/pipl-desc/pip-desc@x2.jpg 2x"
+                        media="(min-width: 1200px)">
+                         <source srcset="
+                        ./images/portfolio/pipl/pipl-tablet/pipl-tablet(1).jpg 1x,
+                        ./images/portfolio/pipl/pipl-tablet/pipl-tablet@x2.jpg 2x"
+                        media="(min-width: 768px)">
+                        <source srcset="
+                        ./images/portfolio/pipl/pipl-mobale/pipl-mobale.jpg 1x,
+                        ./images/portfolio/pipl/pipl-mobale/pipl-mobale-@2x.jpg 2x"
+                        media="(max-width: 768px)">
+                         <img  class="imphoto" src="./images/portfolio/pipl.jpg" alt="">
+                        </picture>
+                        </div>
                     <div class="foto-div">
                     <h3 class="photo_h3">Технокряк</h3>
                     <p class="h3_p" lang="">Веб-сайт</p>
@@ -102,8 +165,22 @@
                    <a href="#" class="im-photo-text">
                     <p class="photo-text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.
                     </p> 
-                   <img class="imphoto" src="./images/portfolio/bol.jpg"   alt="" width="370" height="294">
-                   </div>
+                    <picture>
+                          <source srcset="
+                        ./images/portfolio/bol/bol-desk/bod-desk.jpg 1x,
+                        ./images/portfolio/bol/bol-desk/bol-desk-@2x.jpg 2x"
+                        media="(min-width: 1200px)">
+                           <source srcset="
+                        ./images/portfolio/bol/bol-tablet/bol-mob.jpg 1x,
+                        ./images/portfolio/bol/bol-tablet/bol-mob-@2x.jpg 2x"
+                        media="(min-width: 768px)">
+                        <source srcset="
+                        ./images/portfolio/bol/bol-mobale/bol-mob.jpg 1x,
+                        ./images/portfolio/bol/bol-mobale/bol-mol-@2x.jpg 2x"
+                        media="(max-width: 768px)">
+                   <img class="imphoto" src="./images/portfolio/bol.jpg"   alt="">
+                    </picture>
+                    </div>
                    <div class="foto-div">
                    <h3 class="photo_h3">Постер <span lang="en">New Orlean vs Golden Star</span> </h3>
                    <p class="h3_p" lang="">Дизайн</p>
@@ -115,8 +192,22 @@
                         <a href="#" class="im-photo-text">
                         <p class="photo-text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.
                         </p> 
-                    <img class="imphoto" src="./images/portfolio/fish.jpg" alt="" width="370" height="294">
-                    </div>
+                        <picture>
+                             <source srcset="
+                            ./images/portfolio/fish/fish-desk/fish-desk.jpg 1x,
+                            ./images/portfolio/fish/fish-desk/fish-desk-@2x.jpg 2x"
+                            media="(min-width: 1200px)">
+                             <source srcset="
+                            ./images/portfolio/fish/fish-tablet/fish-tabl.jpg 1x,
+                            ./images/portfolio/fish/fish-tablet/fish-tabl-@2x.jpg 2x"
+                            media="(min-width: 768px)">
+                            <source srcset="
+                            ./images/portfolio/fish/fish-mobale/fish-mob.jpg 1x,
+                            ./images/portfolio/fish/fish-mobale/fish-mob-@2x.jpg 2x"
+                            media="(max-width: 768px)">
+                    <img class="imphoto" src="./images/portfolio/fish.jpg" alt="">
+                       </picture> 
+                       </div>
                     <div class="foto-div">
                     <h3 class="photo_h3">Ресторан <span lang="en">Seafood</span></h3>
                     <p class="h3_p" lang="">Приложение</p>
@@ -128,8 +219,22 @@
                         <a href="#" class="im-photo-text">
                         <p class="photo-text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.
                         </p> 
-                    <img class="imphoto" src="./images/portfolio/song.jpg" alt="" width="370" height="294">
-                    </div>
+                        <picture>
+                             <source srcset="
+                            ../images/portfolio/song/song-desk/song-desk(1).jpg 1x,
+                            ../images/portfolio/song/song-desk/song-desk@2x.jpg 2x"
+                            media="(min-width: 1200px)">
+                           <source srcset="
+                            ../images/portfolio/song/song-tablet/song-tablet(1).jpg 1x,
+                            ../images/portfolio/song/song-tablet/song-tablet@x2.jpg 2x"
+                            media="(min-width: 768px)"> 
+                            <source srcset="
+                            ../images/portfolio/song/song-mobale/song-mobale(1).jpg 1x,
+                            ../images/portfolio/song/song-mobale/song-mobale@x2.jpg 2x"
+                            media="(max-width: 768px)">
+                    <img class="imphoto" src="./images/portfolio/song.jpg" alt="">
+                       </picture> 
+                       </div>
                     <div class="foto-div">
                     <h3 class="photo_h3">Проект <span lang="en">Prime</span></h3>
                     <p class="h3_p" lang="">Маркетинг</p>
@@ -141,8 +246,22 @@
                         <a href="#" class="im-photo-text">
                         <p class="photo-text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.
                         </p> 
-                    <img class="imphoto" src="./images/portfolio/box.jpg" alt="" width="370" height="294">
-                    </div>
+                        <picture>
+                            <source srcset="
+                            ./images/portfolio/box/box-desk/box-desck.jpg 1x,
+                            ./images/portfolio/box/box-desk/box-desk-@2x.jpg 2x"
+                            media="(min-width: 1200px)"> 
+                           <source srcset="
+                            ./images/portfolio/box/box-tablet/box-tab.jpg 1x,
+                            ./images/portfolio/box/box-tablet/box-tab-@2x. 2x"
+                            media="(min-width: 768px)"> 
+                            <source srcset="
+                            ./images/portfolio/box/box-mobale/box-mob.jpg 1x,
+                            ./images/portfolio/box/box-mobale/box-mob-@2x.jpg 2x"
+                            media="(max-width: 768px)">
+                    <img class="imphoto" src="./images/portfolio/box.jpg" alt="">
+                       </picture>
+                       </div>
                     <div class="foto-div">
                     <h3 class="photo_h3">Проект <span lang="en">Boxes</span></h3>
                     <p class="h3_p" lang="">Приложение</p>
@@ -154,8 +273,23 @@
                         <a href="#" class="im-photo-text">
                         <p class="photo-text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.
                         </p> 
-                    <img class="imphoto" src="./images/portfolio/monitor.jpg" alt="" width="370" height="294">
-                    </div>
+                        <picture>
+                             <source srcset="
+                             ./images/portfolio/monitor/monitor-desk/monitor-desk(1).jpg 1x,
+                             ./images/portfolio/monitor/monitor-desk/monitor-desk@x2.jpg 2x"
+                            media="(min-width: 1200px)">
+                              <source srcset="
+                            ./images/portfolio/monitor/monitor-tablet/monitor-tablet(1).jpg 1x,
+                            ./images/portfolio/monitor/monitor-tablet/monitor-tablet@x2.jpg 2x"
+                            media="(min-width: 768px)">
+                            <source srcset="
+                            ./images/portfolio/monitor/monito-mobale/monitor-mobale(1).jpg 1x,
+                            ./images/portfolio/monitor/monitor-mobale/monitor-mobale@x2.jpg 2x"
+                            media="(max-width: 768px)">
+            
+                    <img class="imphoto" src="./images/portfolio/monitor.jpg" alt="">
+                       </picture>
+                       </div>
                      <div class="foto-div" >
                     <h3 class="photo_h3">Inspiration has no Borders</h3>
                      <p class="h3_p" lang="">Веб-сайт</p>
@@ -167,8 +301,22 @@
                     <a href="#" class="im-photo-text">
                         <p class="photo-text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.
                         </p> 
-                    <img class="imphoto" src="./images/portfolio/book.jpg" alt="" width="370" height="294">
-                        </div>
+                        <picture>
+                            <source srcset="
+                            ./images/portfolio/book/book-desk/bool-desk.jpg 1x,
+                            ./images/portfolio/book/book-desk/book-desk-@2x.jpg 2x"
+                            media="(min-width: 1200px)">
+                            <source srcset="
+                            ./images/portfolio/book/bool-tablet/book-tab.jpg 1x,
+                            ./images/portfolio/book/bool-tablet/book-tab-@2x.jpg 2x"
+                            media="(min-width: 768px)">
+                            <source srcset="
+                            ./images/portfolio/book/book-mobale/bool-mob.jpg 1x,
+                            ./images/portfolio/book/book-mobale/book-mob-@2x.jpg 2x"
+                            media="(max-width: 768px)">
+                    <img class="imphoto" src="./images/portfolio/book.jpg" alt="">
+                       </picture> 
+                       </div>
                     <div class="foto-div" >
                     <h3 class="photo_h3">Издание Limited Edition</h3>
                     <p class="h3_p" lang="">Дизайн</p>
@@ -180,8 +328,23 @@
                          <a href="" class="im-photo-text">
                         <p class="photo-text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.
                         </p> 
-                    <img class="imphoto" src="./images/portfolio/magazin.jpg" alt="" width="370" height="294">
-                    </div>
+                        <picture>
+                        <source srcset="
+                        ./images/portfolio/magazin/magazin-desk/mag-desk(1).jpg 1x,
+                        ./images/portfolio/magazin/magazin-desk/mag-desk@x2.jpg 2x"
+                        media="(min-width: 1200px)">
+                        <source srcset="
+                        ./images/portfolio/magazin/magazin-tablet/mag-tab(1).jpg 1x,
+                        ./images/portfolio/magazin/magazin-tablet/mag-tab@x2.jpg 2x"
+                        media="(min-width: 768px)"> 
+                        <source srcset="
+                        ./images/portfolio/magazin/magazin-mobale/mag-mobale(1).jpg 1x,
+                        ./images/portfolio/magazin/magazin-mobale/mag-mobale@x2.jpg 2x"
+                        media="(max-width: 768px)">
+                       
+                    <img class="imphoto" src="./images/portfolio/magazin.jpg" alt="">
+                     </picture>
+                     </div>
                     <div class="foto-div"> 
                     <h3 class="photo_h3">Проект LAB</h3>
                     <p class="h3_p" lang="">Маркетинг</p>
@@ -193,8 +356,23 @@
                     <a href="" class="im-photo-text">
                         <p class="photo-text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.
                         </p>
-                    <img class="imphoto" src="./images/portfolio/nout.jpg" alt="" width="370" height="294">
-                        </div>
+                        <picture>
+                            <source srcset="
+                            ./images/portfolio/nout/nout-desk/nout-desk(1).jpg 1x,
+                            ./images/portfolio/nout/nout-desk/nout-desk@x2.jpg 2x"
+                            media="(min-width: 1200px)">
+                             <source srcset="
+                            ./images/portfolio/nout/nout-tablet(1).jpg 1x,
+                            ./images/portfolio/nout/nout-tablet@x2.jpg 2x"
+                            media="(min-width: 768px)">
+                            <source srcset="
+                            ./images/portfolio/nout/nout-mobale/nout-mobale(1).jpg 1x,
+                            ./images/portfolio/nout/nout-mobale/nout-mobale@x2.jpg 2x"
+                            media="(max-width: 768px)">
+                           
+                    <img class="imphoto" src="./images/portfolio/nout.jpg" alt="">
+                       </picture> 
+                       </div>
                     <div class="foto-div">
                     <h3 class="photo_h3"><span lang="en">Growing Business</span></h3>
                     <p class="h3_p" lang="">Приложение</p>
@@ -225,9 +403,10 @@
 </address>
 </div>
 <div class="social-network">
-    <h3 class="soc-foot-h3">приєднуйтесь</h3>
+     <h3 class="soc-foot-h3">приєднуйтесь</h3>
     <div class="ссс">
     <ul class="social-list-footer">
+       
         <li class="social-list-items">
             <a href="" class="social-link-footer">
                 <svg class="soc-icon-footer" width="20" height="20">
@@ -288,6 +467,7 @@
     </div>
 
 </footer>
+<script src="./js/mobile-menu.js"></script>
 </body>
 </html>
 <!--FOOTER-->

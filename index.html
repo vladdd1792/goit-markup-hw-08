@@ -18,9 +18,9 @@
     <body>
         <!--HEADER--> 
         <header class="page_header"> 
-            <div class="container page_header">
+            <div class="container page_header-container">
             <nav class="nav">
-            <a href=""  class="logotipe-title">
+            <a href="#"  class="logotipe-title">
                 <span class="logotipe_blue">Web</span><span class="logotip_black">Studio</span> 
             </a>
             <ul class="menu_ul">
@@ -35,6 +35,12 @@
                 </li>
             </ul>
            </nav>
+           <button  type="button" class="mobile-menu-open js-open-menu" >
+            <svg class="mobile-menu-open_icon" width="30" height="30">
+                <use href="./images/svg1-2-3/symbol-defs.svg#burger-icon"></use>
+            </svg>
+            </use>
+           </button>
            <ul class="contact">
             <li class="contact_1">
                 <a class="contact_maill"  href="mailto:info@devstudio.com">
@@ -59,14 +65,56 @@
         </li>
             </ul> 
         </div>
+        <div class="mobile-menu js-menu-container" >
+            <div class="container mobile-menu_conteiner">
+            <button class="mobile-menu_close-btn js-close-menu" >
+                <svg class="mobile-menu_close-icon" width="20" height="20">
+                    <use href="./images/svg1-2-3/symbol-defs.svg#icon-cloes-modalsvg"></use>
+                </svg>
+            </button>
+            <ul class="mobaile-menu_ul">
+                <li class="mobaile-menu_li">
+                    <a class="mobaile-menu_a" href="./index.html">Студія</a>
+                </li>
+                <li class="mobaile-menu_li">
+                    <a class="mobaile-menu_a" href="./portfolio.html">Портфоліо</a>
+                </li>
+                <li class="mobaile-menu_li">
+                    <a class="mobaile-menu_a" href="#">Контакти</a>
+                </li>
+            </ul>
+
+            <ul class="mobaile-menu_contact">
+                <li class="mobaile-menu_contact_number">+38 096 111 11 11</li>
+                <li class="mobaile-menu_contact_maill">info@devstudio.com</li>
+            </ul>
+            <ul class="mobaile-menu-social">
+                <li class="mobaile-menu-social_li">
+                    <a class="mobaile-menu-social_li_a" href="#">
+                        <div class="mobaile-text">Instagram</div></a>
+                </li>
+                <li class="mobaile-menu-social_li">
+                    <a class="mobaile-menu-social_li_a" href="#">
+                        <div class="mobaile-text">Twitter</div></a>
+                </li>
+                <li class="mobaile-menu-social_li">
+                    <a class="mobaile-menu-social_li_a" href="#">
+                        <div class="mobaile-text">Facebook</div></a>
+                </li>
+                <li class="mobaile-menu-social_li">
+                    <a class="mobaile-menu-social_li_a" href="#">
+                        <div class="mobaile-text">LinkedIn</div></a>
+                </li>
+            </ul>
+        </div>
         </header>
         <main>
             <!--HERO-->
-            <section class="hero">
+            <section class="container hero">
                <h1 class="page_title">Ефективні рішення для вашого бізнесу</h1>
                <button  class="modal-btn" type="button" data-modal-open>Замовити послугу</button>
             </section> 
-         <section class="text1">
+         <section class="section text1">
             <h2 hidden> Наши достоинства</h2>
             <div class="container">
             <ul class="text">
@@ -109,7 +157,7 @@
             </ul>
             </div>
             </section>
-            <section class="photo_section">
+           <section class="photo_section">
                 <div class="container">
                 <h2 class="work">Чим ми займаємося</h2>
                 <ul class="work_photo">
@@ -139,9 +187,23 @@
             <section class="employes-section section" id="out-team">
                 <h2 class="team">Наша команда</h2>
                 <div class="container">
-                    <ul class="employes">
+                    <ul class="employes list">
                     <li class="employes-card">
-                        <img src="./images/ourteam/img-3.jpg" alt="фото Игорь Демьяненко" width="270" height="260"/>
+                        <picture>
+                         <source srcset="
+                        ./images/ourteam/igor/igor-desc/img.jpg 1x, 
+                        ./images/ourteam/igor/igor-desc/img@2x.jpg 2x"
+                        media="(min-width: 1200px)">
+                        <source srcset="
+                        ./images/ourteam/igor/igor-tabl/img.jpg 1x,
+                        ./images/ourteam/igor/igor-tabl/img@2x.jpg 2x"
+                        media="(min-width: 768px)">
+                        <source srcset="
+                        ./images/ourteam/igor/igor-mob/img.jpg 1x,
+                        ./images/ourteam/igor/igor-mob/img@2x.jpg 2x"
+                        media="(max-width: 768px)">
+                       <img src =" ./images/ourteam/img-3.jpg "alt =" фото Игорь Демьяненко " />
+                        </picture>
                         <div class="name-position">
                         <h3 class="suptitle">Ігор Дем'яненко</h3>
                          <p  class="suptitles" lang="en">Product Designer</p>
@@ -177,8 +239,23 @@
                         </ul>
                         </div>
                     </li>
-                    <li class="employes-card"><img src="./images/ourteam/img-4.jpg" alt="фото Ольга Репина" width="270"  height="260"/>
-                         <div class="name-position">
+                    <li class="employes-card">
+                        <picture>
+                         <source srcset="
+                        ./images/ourteam/olga/olga-desktop/img.jpg 1x,
+                        .images/ourteam/olga/olga-desktop/img@2x.jpg 2x"
+                        media="(min-width: 1200px)">
+                        <source srcset="
+                        ./images/ourteam/olga/olga-tablet/img.jpg 1x,
+                        ./images/ourteam/olga/olga-tablet/img@2x.jpg 2x"
+                        media="(min-width: 768px)">
+                        <source srcset="
+                        ./images/ourteam/olga/olga-mobale/img.jpg 1x
+                        ./images/ourteam/olga/olga-mobale/img@2x.jpg 2x"
+                        media="(max-width: 768px)">
+                        <img src="./images/ourteam/img-4.jpg" alt="фото Ольга Репина"/>
+                        </picture> 
+                        <div class="name-position">
                         <h3 class="suptitle">Ольга Рєпіна</h3>
                          <p  class="suptitles" lang="en">Frontend Developer</p>
                          <ul class="social-list">
@@ -213,7 +290,23 @@
                            </ul>
                         </div>
                     </li>
-                    <li class="employes-card"><img src="./images/ourteam/img-5.jpg" alt="фото Николай Тарасов " width="270" height="260"/>
+                    <li class="employes-card">
+                        <picture>
+                             <source srcset="
+                            ./images/ourteam/mihal/mihal-desk/img.jpg 1x,
+                            ./images/ourteam/mihal/mihal-desk/img@2x.jpg 2x"
+                            media="(min-width: 1200px)">
+                            <source srcset="
+                            ./images/ourteam/mihal/mihal-tablet/img.jpg 1x,
+                            ./images/ourteam/mihal/micola-tablet/img@2x.jpg 2x"
+                            media="(min-width: 768px)">
+                            <source srcset="
+                            ./images/ourteam/mihal/mihal-mobail/img.jpg 1x,
+                            ./images/ourteam/mihal/mihal-mobail/img@2x.jpg 2x"
+                            media="(max-width: 768px)">
+                            
+                        <img src="./images/ourteam/img-5.jpg" alt="фото Николай Тарасов " width="350" height="370"/>
+                         </picture>
                         <div class="name-position">
                         <h3 class="suptitle">Микола Тарасов</h3>
                         <p  class="suptitles" lang="en">Marketing</p>
@@ -250,8 +343,22 @@
                         </div>
                     </li>
                     <li class="employes-card">
-                        <img src="./images/ourteam/img-6.jpg" alt="фото Михаил Ермаков" width="270" height="260"/>
-                         <div class="name-position">
+                        <picture>
+                            <source srcset="
+                            ./images/ourteam/micola/mocola-desktop/img.jpg 1x,
+                            ./images/ourteam/micola/mocola-desktop/img@x2.jpg 2x"
+                            media="(min-width: 1200px)">
+                               <source srcset="
+                            ./images/ourteam/micola/micola-tablet/img.jpg 1x,
+                            ./images/ourteam/micola/micola-tablet/img@2x.jpg 2x"
+                            media="(min-width:768px)">
+                            <source srcset="
+                            ./images/ourteam/micola/micola-mobale/img.jpg 1x,
+                            ./images/ourteam/micola/micola-mobale/img@2x.jpg 2x"
+                            media="(max-width: 768px)">
+                        <img src="./images/ourteam/img-6.jpg" alt="фото Михаил Ермаков"/>
+                        </picture>
+                        <div class="name-position">
                         <h3 class="suptitle">Михайло Єрмаков</h3>
                          <p  class="suptitles" lang="en">UI Designer</p>
                          <ul class="social-list">
@@ -347,7 +454,7 @@
 
                 </div>
             </section>
-        </main> 
+         </main> 
         <!--ABOUT-->
         <!--FOOTER-->
         <footer class="footer">
@@ -356,6 +463,7 @@
                 <a class="logo-footer"  href="">
                     <span class="logotipe_blue_end">Web</span><span class="logotip_blake_end">Studio</span> 
                 </a>
+                   
                 <address>
                         <p class="adres_footer" href="#">м. Київ, пр-т Лесі Українки, 26</p>
                 <ul class="list">
@@ -519,6 +627,7 @@
           
     </div>
   <!---------------------------------/MODAL-WIND-->
+  <script src="./js/mobile-menu.js"></script>
   <script src="./js/modal.js"></script>
     </body>
 </html>
