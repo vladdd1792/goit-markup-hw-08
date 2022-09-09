@@ -1,7 +1,7 @@
-@media screen and (max-width: 1600px) {
+@media screen and (max-width: 767px) {
     .team {
         font-family: 'Roboto', sans-serif;
-    font-size: 36px;
+    font-size: 28px;
     line-height: 1.16;
     text-align: center;
     letter-spacing: 0.03em;
@@ -11,21 +11,25 @@
     }
 
     .employes {
+       
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
     }
 
     .employes-card {
+       
 
         background: #FFFFFF;
         box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
         border-radius: 0px 0px 4px 4px;
-       
+        margin-bottom: 30px;
     }
+
+  
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (min-width: 768px) {
     .team {
         font-family: 'Roboto', sans-serif;
     font-size: 36px;
@@ -53,10 +57,10 @@
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 1199px) {
     .team {
         font-family: 'Roboto', sans-serif;
-    font-size: 28px;
+    font-size: 36px;
     line-height: 1.16;
     text-align: center;
     letter-spacing: 0.03em;
@@ -66,23 +70,23 @@
     }
 
     .employes {
-       
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-between;
+       
     }
 
     .employes-card {
-        width: 100%;
 
         background: #FFFFFF;
         box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
         border-radius: 0px 0px 4px 4px;
-        margin-bottom: 30px;
+       
     }
-
-  
 }
+
+
+
+
 
 
 
