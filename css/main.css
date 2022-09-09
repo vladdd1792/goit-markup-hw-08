@@ -46,7 +46,9 @@ li {
 }
 
 img {
+  max-width: 100%;
   display: block;
+  height: auto;
 }
 
 button {
@@ -717,128 +719,54 @@ button {
   padding-bottom: 200px;
   background: #2F303A;
   text-align: center;
-  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("/images/hero/title.jpg");
-}
-
-@media screen and (max-width: 1600px) {
-  .hero {
-    padding-top: 200px;
-    padding-bottom: 280px;
-    background: #2F303A;
-    text-align: center;
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/hero/hero-destop/Img (9).jpg");
-    height: 600px;
-  }
-  .client-title {
-    font-family: "Roboto", sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.17;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: #212121;
-    margin-bottom: 50px;
-  }
-}
-@media (min-device-pixel-ratio: 2) and (max-width: 1600px), (min-resolution: 192dpi) and (max-width: 1600px), (min-resolution: 2dppx) and (max-width: 1600px) {
-  .hero {
-    padding-top: 200px;
-    padding-bottom: 280px;
-    background: #2F303A;
-    text-align: center;
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/hero/hero-destop/Img@2x.jpg");
-  }
-  .client-title {
-    font-family: "Roboto", sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.16;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: #212121;
-    margin-bottom: 50px;
-  }
-  .client-list {
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-  }
-}
-@media screen and (max-width: 1200px) {
-  .hero {
-    padding-top: 118px;
-    padding-bottom: 118px;
-    background: #2F303A;
-    text-align: center;
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/hero/hero-tablet/Header img.jpg");
-    height: 400px;
-  }
-  .client-title {
-    font-family: "Roboto", sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.16;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: #212121;
-    margin-bottom: 50px;
-  }
-  .client-list {
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-    flex-wrap: wrap;
-    flex-basis: 100%;
-  }
-}
-@media (min-device-pixel-ratio: 2) and (max-width: 1200px), (min-resolution: 192dpi) and (min-width: 1200px), (min-resolution: 2dppx) and (m-width: 1200px) {
-  .hero {
-    padding-top: 118px;
-    padding-bottom: 118px;
-    background: #2F303A;
-    text-align: center;
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/hero/hero-tablet/Header img@2x.jpg");
-  }
-}
-@media screen and (max-width: 768px) {
-  .hero {
-    padding-top: 118px;
-    padding-bottom: 118px;
-    background: #2F303A;
-    text-align: center;
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("./images/hero/hero-mobale/Header/img.jpg");
-  }
-  .client-title {
-    font-family: "Roboto", sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.16;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: #212121;
-    margin-bottom: 50px;
-  }
-  .client-list {
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-    flex-wrap: wrap;
-    flex-basis: 100%;
-  }
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/hero/title.jpg");
 }
 @media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .hero {
-    padding-top: 118px;
-    padding-bottom: 118px;
-    background: #2F303A;
-    text-align: center;
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/hero/hero-mobale/hero-img@2x.png");
+    background-image: url("../images/hero/hero-mobale/Header img@2x.jpg");
   }
 }
+
+@media screen and (min-width: 768px) {
+  .hero {
+    background-image: url("../images/hero/hero-tablet/Header img.jpg");
+  }
+}
+@media screen and (min-width: 768px) and (min-device-pixel-ratio: 2), screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 768px) and (min-resolution: 192dpi), screen and (min-width: 768px) and (min-resolution: 2dppx) {
+  .hero {
+    background-image: url("../images/hero/hero-tablet/Header img@2x.jpg ");
+  }
+}
+@media screen and (min-width: 1200px) {
+  .hero {
+    background-image: url("../images/hero/hero-destop/Img.jpg");
+  }
+}
+@media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (min-resolution: 192dpi), screen and (min-width: 1200px) and (min-resolution: 2dppx) {
+  .hero {
+    background-image: url("../images/hero/hero-destop/Img@2x.jpg");
+  }
+}
+.client-title {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  margin-bottom: 50px;
+}
+
+.client-list {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  flex-basis: 100%;
+}
+
 .text1 {
   padding-top: 94px;
 }
@@ -1292,10 +1220,8 @@ button {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-55%, -70%);
+    transform: translate(-50%, -70%);
     padding: 40px;
-    width: 410px;
-    height: 609px;
     background-color: #FFFFFF;
   }
   .input-btm {
@@ -2073,7 +1999,7 @@ li {
     color: #FFFFFF;
   }
   .label-input-footer {
-    width: 450px;
+    width: 100%;
     height: 50px;
     border: 1px solid rgba(255, 255, 255, 0.3);
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
