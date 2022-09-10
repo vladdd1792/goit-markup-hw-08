@@ -382,7 +382,7 @@ button {
 }
 
 .contact {
-  display: flex;
+  display: none;
   align-items: center;
 }
 
@@ -411,10 +411,6 @@ button {
 .menu-link:hover,
 .menu-link:focus {
   color: var(--accent-color);
-}
-
-.logotipe-title {
-  margin-right: 71px;
 }
 
 .logotipe_blue {
@@ -553,6 +549,10 @@ button {
   color: var(--knob-color);
 }
 
+.logotipe-title {
+  margin-right: 71px;
+}
+
 @media screen and (max-width: 767px) {
   .page_title {
     font-weight: 900;
@@ -573,7 +573,7 @@ button {
     width: 370px;
   }
   .satellite {
-    width: 370px;
+    width: 380px;
     height: 120px;
     background-color: #F5F4FA;
     border-radius: 4px;
@@ -778,9 +778,9 @@ button {
   text-align: center;
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/hero/title.jpg");
 }
-@media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+@media screen and (min-resolution: 2dppx), (min-resolution: 192dpi), (min-device-pixel-ratio: 2) {
   .hero {
-    background-image: url("../images/hero/hero-mobale/Header img@2x.jpg");
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/hero/hero-mobale/Header img@2x.jpg");
   }
 }
 
@@ -792,18 +792,18 @@ button {
 }
 @media screen and (min-width: 768px) and (min-device-pixel-ratio: 2), screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 768px) and (min-resolution: 192dpi), screen and (min-width: 768px) and (min-resolution: 2dppx) {
   .hero {
-    background-image: url("../images/hero/hero-tablet/Header img@2x.jpg ");
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/hero/hero-tablet/Header img@2x.jpg ");
   }
 }
 @media screen and (min-width: 1200px) {
   .hero {
     background: rgba(47, 48, 58, 0.4);
-    background-image: url("../images/hero/hero-destop/Img.jpg");
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/hero/hero-destop/Img.jpg");
   }
 }
 @media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (min-resolution: 192dpi), screen and (min-width: 1200px) and (min-resolution: 2dppx) {
   .hero {
-    background-image: url("../images/hero/hero-destop/Img@2x.jpg");
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/hero/hero-destop/Img@2x.jpg");
   }
 }
 .client-title {
@@ -1683,6 +1683,7 @@ li {
 }
 
 .contact {
+  display: none;
   display: flex;
   align-items: center;
 }
@@ -2181,7 +2182,7 @@ li {
   }
   .form-footer-div-1 {
     margin-top: none;
-    margin-left: 0px;
+    margin-left: 80px;
   }
   .form-footer {
     display: flex;
@@ -2450,13 +2451,11 @@ li {
     left: 0;
     background: white;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 2px 4px rgba(0, 0, 0, 0.08), 0px 1px 3px rgba(0, 0, 0, 0.16);
-    opacity: 0;
+    transform: translate(100%);
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   .mobile-menu_portfolio.is-open {
-    opacity: 1;
-    visibility: visible;
-    pointer-events: auto;
+    transform: translate(0);
   }
   .mobile-menu_conteiner_portfolio {
     position: relative;

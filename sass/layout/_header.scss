@@ -68,7 +68,8 @@
         align-items: center;
     }
     .contact {
-        display: flex;
+        display: none;
+        
         align-items: center;
     }
     
@@ -97,9 +98,7 @@
     .menu-link:focus {
         color: var(--accent-color) 
     }
-    .logotipe-title {
-        margin-right: 71px;
-    }
+   
     
     .logotipe_blue {
         font-family: 'Raleway';
@@ -245,5 +244,9 @@ margin-right: 30px;
 
 .current {
     color:var(--knob-color)
+}
+
+.logotipe-title {
+    margin-right: 71px;
 }
 

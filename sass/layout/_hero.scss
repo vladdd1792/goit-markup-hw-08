@@ -23,7 +23,7 @@
   }
 
   .satellite {
-    width: 370px;
+    width: 380px;
     height: 120px;
     background-color: #F5F4FA;
     border-radius: 4px;
@@ -287,12 +287,10 @@ color: var(--mail-color);
     background-image: linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)), url("../images/hero/title.jpg");
 
 
-    @media (min-device-pixel-ratio: 2),
-  (-webkit-min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi),
-  (min-resolution: 2dppx)  {
-    background-image: url("../images/hero/hero-mobale/Header\ img@2x.jpg");
-  }
+    @media screen and (min-resolution: 2dppx), (min-resolution: 192dpi), (min-device-pixel-ratio: 2) {
+        background-image: linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)), url("../images/hero/hero-mobale/Header\ img@2x.jpg");
+
+    }
 }
 
 @media screen  and (min-width: 768px) {
@@ -303,7 +301,7 @@ color: var(--mail-color);
   (-webkit-min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
   (min-resolution: 2dppx)  {
-    background-image: url("../images/hero/hero-tablet/Header\ img@2x.jpg ");
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)), url("../images/hero/hero-tablet/Header\ img@2x.jpg ");
   }
     }
    
@@ -313,13 +311,13 @@ color: var(--mail-color);
 @media screen and (min-width: 1200px) {
     .hero {
         background: rgba(47, 48, 58, 0.4);
-        background-image: url("../images/hero/hero-destop/Img.jpg");
+        background-image: linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)), url("../images/hero/hero-destop/Img.jpg");
 
         @media (min-device-pixel-ratio: 2),
         (-webkit-min-device-pixel-ratio: 2),
         (min-resolution: 192dpi),
         (min-resolution: 2dppx)  {
-          background-image: url("../images/hero/hero-destop/Img@2x.jpg");
+          background-image: linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)), url("../images/hero/hero-destop/Img@2x.jpg");
         }
         
     }
