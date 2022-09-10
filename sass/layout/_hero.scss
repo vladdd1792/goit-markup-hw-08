@@ -62,6 +62,32 @@
             margin-top: 50px;
         }
 
+        .client-item {
+            width: 170px;
+            height: 92px;
+        }
+
+        .client-link {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 170px;
+            height: 92px;
+            border: 1px solid #AFB1B8;
+            border-radius: 4px;
+            transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+      
+             &:hover .client-icon,
+             &:focus .client-icon{
+                fill:#2196F3;
+            }
+            
+             &:hover,
+             &:focus {
+                border-color: #2196F3;
+            }
+        }
+
 }
 
     
@@ -124,6 +150,32 @@
         .photo_section {
             display: none;
          }
+
+         .client-item {
+            width: 226px;
+            height: 92px;
+        }
+
+        .client-link {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 226px;
+            height: 92px;
+            border: 1px solid #AFB1B8;
+            border-radius: 4px;
+            transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+      
+             &:hover .client-icon,
+             &:focus .client-icon{
+                fill:#2196F3;
+            }
+            
+             &:hover,
+             &:focus {
+                border-color: #2196F3;
+            }
+        }
     
 }
 
@@ -191,6 +243,32 @@ color: var(--mail-color);
    display: none;
 }
 
+.client-item {
+    width: 170px;
+    height: 92px;
+}
+
+.client-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    height: 92px;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+     &:hover .client-icon,
+     &:focus .client-icon{
+        fill:#2196F3;
+    }
+    
+     &:hover,
+     &:focus {
+        border-color: #2196F3;
+    }
+}
+
    
 }
 
@@ -241,9 +319,7 @@ color: var(--mail-color);
         }
         
     }
-
-   
-   
+    
 
 }
 
@@ -318,33 +394,6 @@ color: var(--mail-color);
   
 
   
- 
-  
-  .client-item {
-      width: 170px;
-      height: 92px;
-  }
-  
-  .client-link {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      width: 170px;
-      height: 92px;
-      border: 1px solid #AFB1B8;
-      border-radius: 4px;
-      transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
-       &:hover .client-icon,
-       &:focus .client-icon{
-          fill:#2196F3;
-      }
-      
-       &:hover,
-       &:focus {
-          border-color: #2196F3;
-      }
-  }
   
   .client-icon {
       width: 106px;
