@@ -21,6 +21,17 @@
         margin-left: 20px;
     }
 
+    .logotipe_blue_end {
+        font-family: 'Raleway', sans-serif;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 1.16; 
+        letter-spacing: 0.03em;
+        color:var(--knob-color);
+        text-align: center;
+       
+    }
+
 } 
 
 @media screen and (min-width: 768px) {
@@ -50,6 +61,16 @@
     .form-footer-div-1 {
         margin-right: 166px;
         margin-left: 166px;
+    }
+
+    .logotipe_blue_end {
+        font-family: 'Raleway', sans-serif;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 1.16; 
+        letter-spacing: 0.03em;
+        color:var(--knob-color);
+        text-align: center;
     }
 
     
@@ -226,20 +247,22 @@ padding-left: 16px;
 
 }
 
+.logotipe_blue_end {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.16; 
+    letter-spacing: 0.03em;
+    color:var(--knob-color);
+    text-align: center;
+    margin-left: -30px;
+}
+
 
     
 }
 
-    .logotipe_blue_end {
-        font-family: 'Raleway', sans-serif;
-        font-weight: 700;
-        font-size: 24px;
-        line-height: 1.16; 
-        letter-spacing: 0.03em;
-        color:var(--knob-color);
-        text-align: center;
-        margin-left: -30px;
-    }
+    
     .logotip_blake_end {
         font-family: 'Raleway', sans-serif;
         font-weight: 700;

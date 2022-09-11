@@ -5,6 +5,12 @@
     .menu_ul {
         display: none;
     }
+
+    .contact {
+        display: none;
+        display: flex;
+        align-items: center;
+    }
     
 }
 
@@ -37,10 +43,11 @@
 }
 
 .mobile-menu-open-p {
+   
     background-color: #FFFF;
     border: none;
     padding: 0;
-    padding-left: 65px;
+    
 }
 
 
@@ -65,7 +72,7 @@
 }
 .contact {
     display: none;
-    display: flex;
+    
     align-items: center;
 }
 
