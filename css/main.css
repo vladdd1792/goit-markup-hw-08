@@ -237,9 +237,9 @@ button {
 
 @media screen and (max-width: 768px) {
   .mobile-menu {
-    position: fixed;
+    position: absolute;
     width: 100%;
-    height: 100%;
+    height: 100vh;
     z-index: 1000;
     top: 0;
     left: 0;
@@ -570,10 +570,9 @@ button {
     gap: 30px;
   }
   .text_li {
-    width: 370px;
+    width: 100%;
   }
   .satellite {
-    width: 380px;
     height: 120px;
     background-color: #F5F4FA;
     border-radius: 4px;
@@ -1153,7 +1152,7 @@ button {
     font-style: normal;
   }
   .contact-footer {
-    margin-left: 0px;
+    margin-left: -40px;
   }
   .address {
     margin-bottom: 90px;
@@ -1209,9 +1208,6 @@ button {
     outline: none;
     border-color: var(--whitey-color);
   }
-  .label-span-footer-1 {
-    margin-left: -130px;
-  }
 }
 .logotipe_blue_end {
   font-family: "Raleway", sans-serif;
@@ -1221,6 +1217,7 @@ button {
   letter-spacing: 0.03em;
   color: var(--knob-color);
   text-align: center;
+  margin-left: -30px;
 }
 
 .logotip_blake_end {
@@ -1855,6 +1852,10 @@ li {
     gap: 30px;
     background: #FFFFFF;
   }
+  .section-project {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
 }
 @media screen and (min-width: 768px) {
   .photo-top {
@@ -1870,6 +1871,10 @@ li {
     flex-wrap: wrap;
     gap: 10px;
   }
+  .section-project {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
 }
 @media screen and (min-width: 1199px) {
   .photo-top {
@@ -1884,12 +1889,11 @@ li {
     flex-wrap: wrap;
     gap: 30px;
   }
+  .section-project {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
 }
-.section-project {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-
 .foto-div {
   padding: 20px;
   background: #FFFFFF;
@@ -2443,9 +2447,9 @@ li {
 
 @media screen and (max-width: 768px) {
   .mobile-menu_portfolio {
-    position: fixed;
+    position: absolute;
     width: 100%;
-    height: 100%;
+    height: 100vh;
     z-index: 1000;
     top: 0;
     left: 0;

@@ -157,7 +157,7 @@
 }
 
 .contact-footer {
-  margin-left: 0px;
+  margin-left: -40px;
 }
 
 .address {
@@ -226,9 +226,7 @@ padding-left: 16px;
 
 }
 
-.label-span-footer-1 {
-    margin-left: -130px;
-}
+
     
 }
 
@@ -240,6 +238,7 @@ padding-left: 16px;
         letter-spacing: 0.03em;
         color:var(--knob-color);
         text-align: center;
+        margin-left: -30px;
     }
     .logotip_blake_end {
         font-family: 'Raleway', sans-serif;
