@@ -565,6 +565,7 @@ button {
   }
   .text_li {
     width: 100%;
+    margin-bottom: 30px;
   }
   .satellite {
     height: 120px;
@@ -765,37 +766,49 @@ button {
   }
 }
 .hero {
-  padding-top: 200px;
-  padding-bottom: 200px;
+  padding-top: 118px;
+  padding-bottom: 118px;
   background: #2F303A;
   text-align: center;
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/hero/title.jpg");
 }
 @media screen and (min-resolution: 2dppx), (min-resolution: 192dpi), (min-device-pixel-ratio: 2) {
   .hero {
+    padding-top: 118px;
+    padding-bottom: 118px;
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/hero/hero-mobale/Header img@2x.jpg");
   }
 }
 
 @media screen and (min-width: 768px) {
   .hero {
+    background-repeat: no-repeat;
+    padding-top: 118px;
+    padding-bottom: 118px;
     background: rgba(47, 48, 58, 0.4);
     background-image: url("../images/hero/hero-tablet/Header img.jpg");
   }
 }
 @media screen and (min-width: 768px) and (min-device-pixel-ratio: 2), screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 768px) and (min-resolution: 192dpi), screen and (min-width: 768px) and (min-resolution: 2dppx) {
   .hero {
+    background-repeat: no-repeat;
+    padding-top: 118px;
+    padding-bottom: 118px;
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/hero/hero-tablet/Header img@2x.jpg ");
   }
 }
 @media screen and (min-width: 1200px) {
   .hero {
+    padding-top: 200px;
+    padding-bottom: 200px;
     background: rgba(47, 48, 58, 0.4);
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/hero/hero-destop/Img.jpg");
   }
 }
 @media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (min-resolution: 192dpi), screen and (min-width: 1200px) and (min-resolution: 2dppx) {
   .hero {
+    padding-top: 200px;
+    padding-bottom: 200px;
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/hero/hero-destop/Img@2x.jpg");
   }
 }
@@ -2168,6 +2181,9 @@ li {
   .social-network {
     margin-left: 70px;
   }
+  .adress {
+    margin-left: 6px;
+  }
   .form-footer {
     display: flex;
     -webkit-box-align: end;
@@ -2190,13 +2206,14 @@ li {
     color: #FFFFFF;
   }
   .logotipe_div_2 {
-    margin-left: 0px;
+    margin-left: 20px;
   }
   .logotipe_end {
     display: flex;
     align-items: baseline;
   }
   .list_li_footer {
+    margin-left: -35px;
     margin-bottom: 9px;
   }
   .form-footer-div-1 {
@@ -2255,6 +2272,7 @@ li {
   line-height: 1.19px;
   letter-spacing: 0.03em;
   color: var(--knob-color);
+  margin-left: -30px;
 }
 
 .logotipe_white {

@@ -211,6 +211,10 @@ margin-bottom: 20px;
         margin-left: 70px;
     }
 
+    .adress {
+        margin-left: 6px;
+    }
+
     .form-footer  {
         display: flex;
         -webkit-box-align: end;
@@ -235,7 +239,7 @@ margin-bottom: 20px;
     }
 
     .logotipe_div_2 {
-        margin-left: 0px;
+        margin-left: 20px;
     }
 
     .logotipe_end {
@@ -243,6 +247,7 @@ margin-bottom: 20px;
         align-items: baseline;
     }
     .list_li_footer{
+        margin-left: -35px;
         margin-bottom: 9px;
     }
     .form-footer-div-1 {
@@ -318,6 +323,7 @@ margin-bottom: 20px;
     line-height: 1.19px; 
     letter-spacing: 0.03em;
     color:var(--knob-color);
+    margin-left: -30px;
 }
 .logotipe_white {
     font-family: 'Raleway', sans-serif;
