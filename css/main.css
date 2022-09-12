@@ -794,6 +794,11 @@ button {
 }
 @media screen and (min-resolution: 2dppx), (min-resolution: 192dpi), (min-device-pixel-ratio: 2) {
   .hero {
+    background-position: center;
+    background-color: #2F303A;
+    background-size: cover;
+    margin: 0 auto;
+    text-align: center;
     padding-top: 118px;
     padding-bottom: 118px;
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/hero/hero-mobale/Header img@2x.jpg");
