@@ -281,10 +281,13 @@ color: var(--mail-color);
 
 
 .hero {
+    background-position: center;
     padding-top: 118px;
     padding-bottom: 118px;
   
-    background: #2F303A;
+    background-color: #2F303A;
+    background-size: cover;
+    margin: 0 auto;
     text-align: center;
     background-image: linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)), url("../images/hero/title.jpg");
 
@@ -299,18 +302,22 @@ color: var(--mail-color);
 
 @media screen  and (min-width: 768px) {
     .hero {
+        background-position: center;
         background-repeat: no-repeat;
         padding-top: 118px;
         padding-bottom: 118px;
-        background: rgba(47, 48, 58, 0.4);
+        background-size: cover;
+        background-color: rgba(47, 48, 58, 0.4);
         background-image: url("../images/hero/hero-tablet/Header\ img.jpg");
                 @media (min-device-pixel-ratio: 2),
   (-webkit-min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
   (min-resolution: 2dppx)  {
+        background-position: center;
         background-repeat: no-repeat;
         padding-top: 118px;
         padding-bottom: 118px;
+        background-color: #2F303A;
     background-image: linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)), url("../images/hero/hero-tablet/Header\ img@2x.jpg ");
   }
     }
@@ -320,8 +327,14 @@ color: var(--mail-color);
 
 @media screen and (min-width: 1200px) {
     .hero {
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    
+
         padding-top: 200px;
         padding-bottom: 200px;
+        background-color: #2F303A;
         background: rgba(47, 48, 58, 0.4);
         background-image: linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)), url("../images/hero/hero-destop/Img.jpg");
 
@@ -329,8 +342,12 @@ color: var(--mail-color);
         (-webkit-min-device-pixel-ratio: 2),
         (min-resolution: 192dpi),
         (min-resolution: 2dppx)  {
+            background-size: cover;
+        background-repeat: no-repeat;
+            background-position: center;
             padding-top: 200px;
         padding-bottom: 200px;
+        background-color: #2F303A;
           background-image: linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)), url("../images/hero/hero-destop/Img@2x.jpg");
         }
         

@@ -236,10 +236,14 @@ button {
 
 @media screen and (max-width: 768px) {
   .mobile-menu {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    z-index: 1000;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    overflow-y: scroll;
+    padding: 48px 40px;
+    z-index: 1;
     top: 0;
     left: 0;
     background: white;
@@ -259,9 +263,6 @@ button {
   }
   .mobile-menu_conteiner {
     position: relative;
-    padding-left: 40px;
-    padding-top: 48px;
-    padding-bottom: 48px;
   }
   .mobaile-menu_li {
     padding-bottom: 35px;
@@ -328,10 +329,47 @@ button {
     display: none;
   }
 }
+@media screen and (min-width: 768px) {
+  .mobile-menu-open {
+    display: none;
+  }
+  .contact_maill {
+    display: flex;
+    flex-direction: row-reverse;
+    font-family: var(--primary-font);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #757575;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .contact_maill:hover, .contact_maill:focus {
+    color: #2196F3;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .contact_maill {
+    display: flex;
+    flex-direction: row-reverse;
+    font-family: var(--primary-font);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #757575;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .contact_maill:hover, .contact_maill:focus {
+    color: #2196F3;
+  }
+}
 .mobile-menu_close-btn {
   position: absolute;
-  top: 10px;
-  right: 15px;
+  top: -30px;
+  right: -5px;
   background-color: white;
   border: none;
   padding: 0;
@@ -343,11 +381,6 @@ button {
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-@media screen and (min-width: 768px) {
-  .mobile-menu-open {
-    display: none;
-  }
-}
 .page_header-container {
   display: flex;
   align-items: center;
@@ -464,22 +497,6 @@ button {
   line-height: 1.14px;
   letter-spacing: 0.02em;
   color: #757575;
-}
-
-.contact_maill {
-  display: flex;
-  flex-direction: row-reverse;
-  font-family: var(--primary-font);
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  color: #757575;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.contact_maill:hover, .contact_maill:focus {
-  color: #2196F3;
 }
 
 .contact-phoun-number {
@@ -766,9 +783,12 @@ button {
   }
 }
 .hero {
+  background-position: center;
   padding-top: 118px;
   padding-bottom: 118px;
-  background: #2F303A;
+  background-color: #2F303A;
+  background-size: cover;
+  margin: 0 auto;
   text-align: center;
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/hero/title.jpg");
 }
@@ -782,33 +802,45 @@ button {
 
 @media screen and (min-width: 768px) {
   .hero {
+    background-position: center;
     background-repeat: no-repeat;
     padding-top: 118px;
     padding-bottom: 118px;
-    background: rgba(47, 48, 58, 0.4);
+    background-size: cover;
+    background-color: rgba(47, 48, 58, 0.4);
     background-image: url("../images/hero/hero-tablet/Header img.jpg");
   }
 }
 @media screen and (min-width: 768px) and (min-device-pixel-ratio: 2), screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 768px) and (min-resolution: 192dpi), screen and (min-width: 768px) and (min-resolution: 2dppx) {
   .hero {
+    background-position: center;
     background-repeat: no-repeat;
     padding-top: 118px;
     padding-bottom: 118px;
+    background-color: #2F303A;
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/hero/hero-tablet/Header img@2x.jpg ");
   }
 }
 @media screen and (min-width: 1200px) {
   .hero {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     padding-top: 200px;
     padding-bottom: 200px;
+    background-color: #2F303A;
     background: rgba(47, 48, 58, 0.4);
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/hero/hero-destop/Img.jpg");
   }
 }
 @media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (min-resolution: 192dpi), screen and (min-width: 1200px) and (min-resolution: 2dppx) {
   .hero {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     padding-top: 200px;
     padding-bottom: 200px;
+    background-color: #2F303A;
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/hero/hero-destop/Img@2x.jpg");
   }
 }
@@ -2480,28 +2512,29 @@ li {
 
 @media screen and (max-width: 768px) {
   .mobile-menu_portfolio {
-    position: absolute;
-    width: 100%;
+    position: fixed;
+    width: 100vw;
     height: 100vh;
-    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    overflow-y: scroll;
+    padding: 48px 40px;
+    z-index: 1;
     top: 0;
     left: 0;
     background: white;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 2px 4px rgba(0, 0, 0, 0.08), 0px 1px 3px rgba(0, 0, 0, 0.16);
-    transform: translate(100%);
+    transform: translateX(100%);
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .mobile-menu_portfolio.is-open {
+    transform: translate(0);
   }
   .mobile-menu_portfolio.is-open {
     transform: translate(0);
   }
   .mobile-menu_conteiner_portfolio {
     position: relative;
-    padding-left: 40px;
-    padding-top: 48px;
-    padding-bottom: 48px;
-  }
-  .mobaile-porfolio {
-    padding-bottom: 40%;
   }
   .portfolio-menu {
     padding-bottom: 35px;
@@ -2550,7 +2583,7 @@ li {
   .references-text {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
-    font-size: 18px;
+    font-size: 15px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2196F3;
