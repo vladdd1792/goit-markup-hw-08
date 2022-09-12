@@ -73,27 +73,22 @@ button {
     width: 1200px;
   }
 }
-.section {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-
-@media screen and (max-width: 768px) {
-  .section {
-    padding-top: 60px;
-    padding-bottom: 60px;
-  }
-}
-@media screen and (min-width: 768px) {
-  .section {
-    padding-top: 60px;
-    padding-bottom: 60px;
-  }
-}
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1200px) {
   .section {
     padding-top: 94px;
     padding-bottom: 94px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .section {
+    padding-top: 60px;
+    padding-bottom: 60px;
   }
 }
 button {
@@ -278,8 +273,11 @@ button {
   }
   .mobile-menu_conteiner {
     position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
-  .mobaile-menu_li {
+  .mobaile-menu_li:not(last-child) {
     padding-bottom: 35px;
   }
   .mobaile-menu_a {
@@ -292,9 +290,6 @@ button {
   }
   .mobaile-menu_a:hover, .mobaile-menu_a:focus {
     color: #2196F3;
-  }
-  .mobaile-menu_contact {
-    padding-top: 100px;
   }
   .mobaile-menu_contact_number {
     font-family: "Roboto", sans-serif;
@@ -312,7 +307,6 @@ button {
     line-height: 1.16;
     letter-spacing: 0.02em;
     color: #757575;
-    padding-bottom: 64px;
   }
   .mobaile-menu-social_li {
     display: inline-block;
@@ -337,6 +331,13 @@ button {
   }
 }
 @media screen and (max-width: 767px) {
+  .page_header {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
   .menu_ul {
     display: none;
   }
@@ -365,6 +366,11 @@ button {
   }
 }
 @media screen and (min-width: 1200px) {
+  .page_header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
   .contact_maill {
     display: flex;
     flex-direction: row-reverse;
@@ -589,6 +595,11 @@ button {
     text-transform: uppercase;
     color: var(--whitey-color);
     margin-bottom: 30px;
+    max-width: 480px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 360px;
+    height: 84px;
   }
   .text {
     display: inline-block;
@@ -649,6 +660,24 @@ button {
   }
   .client-link:hover, .client-link:focus {
     border-color: #2196F3;
+  }
+  .text1 {
+    padding-top: 60px;
+  }
+  .photo_section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .client-title {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    margin-bottom: 30px;
   }
 }
 @media screen and (min-width: 768px) {
@@ -717,6 +746,24 @@ button {
   }
   .client-link:hover, .client-link:focus {
     border-color: #2196F3;
+  }
+  .text1 {
+    padding-top: 60px;
+  }
+  .photo_section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .client-title {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    margin-bottom: 30px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -796,6 +843,24 @@ button {
   .client-link:hover, .client-link:focus {
     border-color: #2196F3;
   }
+  .text1 {
+    padding-top: 94px;
+  }
+  .photo_section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+  .client-title {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    margin-bottom: 30px;
+  }
 }
 .hero {
   background-position: center;
@@ -827,7 +892,6 @@ button {
     padding-top: 118px;
     padding-bottom: 118px;
     background-size: cover;
-    background-color: rgba(47, 48, 58, 0.4);
     background-image: url("../images/hero/hero-tablet/Header img.jpg");
   }
 }
@@ -839,6 +903,19 @@ button {
     padding-bottom: 118px;
     background-color: #2F303A;
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/hero/hero-tablet/Header img@2x.jpg ");
+  }
+}
+@media screen and (min-width: 768px) {
+  .client-title {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    margin-bottom: 30px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -864,33 +941,25 @@ button {
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/hero/hero-destop/Img@2x.jpg");
   }
 }
-.client-title {
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.16;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: #212121;
-  margin-bottom: 50px;
+@media screen and (min-width: 1200px) {
+  .client-title {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    margin-bottom: 50px;
+  }
 }
-
 .client-list {
   display: flex;
   justify-content: center;
   gap: 30px;
   flex-wrap: wrap;
   flex-basis: 100%;
-}
-
-.text1 {
-  padding-top: 94px;
-}
-
-.photo_section {
-  padding-top: 94px;
-  padding-bottom: 94px;
 }
 
 .li_h3 {
@@ -972,12 +1041,12 @@ button {
 @media screen and (min-width: 768px) {
   .team {
     font-family: "Roboto", sans-serif;
-    font-size: 36px;
+    font-size: 28px;
     line-height: 1.16;
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--text-color);
-    margin-bottom: 50px;
+    margin-bottom: 30px;
   }
   .employes {
     justify-content: center;
@@ -1012,8 +1081,6 @@ button {
   }
 }
 .employes-section {
-  padding-top: 94px;
-  padding-bottom: 94px;
   background: #F5F4FA;
 }
 
@@ -1697,12 +1764,15 @@ li {
     width: 1200px;
   }
 }
-.section {
-  padding-top: 94px;
-  padding-bottom: 94px;
+@media screen and (max-width: 1200px) {
+  .page-header {
+    border-bottom: #ECECEC 1px solid;
+  }
 }
-
 @media screen and (max-width: 768px) {
+  .page-header {
+    border-bottom: #ECECEC 1px solid;
+  }
   .menu_ul {
     display: none;
   }
@@ -1712,7 +1782,12 @@ li {
     align-items: center;
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
+  .page-header {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border-bottom: #ECECEC 1px solid;
+  }
   .menu-item {
     display: none;
   }
@@ -1743,10 +1818,6 @@ li {
 .mobile-menu-open-p.is-open {
   opacity: 1;
   transform: translateX(0);
-}
-
-.page-header {
-  border-bottom: #ECECEC 1px solid;
 }
 
 .page-header-container {
@@ -2149,6 +2220,14 @@ li {
     color: #FFFFFF;
     margin-bottom: 20px;
   }
+  .logotipe_blu {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19px;
+    letter-spacing: 0.03em;
+    color: var(--knob-color);
+  }
 }
 @media screen and (min-width: 768px) {
   .adres_footer {
@@ -2217,6 +2296,14 @@ li {
   }
   .soc-foot-h3-div-2 {
     margin-left: 110px;
+  }
+  .logotipe_blu {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19px;
+    letter-spacing: 0.03em;
+    color: var(--knob-color);
   }
 }
 @media screen and (min-width: 1199px) {
@@ -2307,6 +2394,15 @@ li {
   .soc-foot-h3-div-2 {
     margin-left: 0px;
   }
+  .logotipe_blu {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19px;
+    letter-spacing: 0.03em;
+    color: var(--knob-color);
+    margin-left: -30px;
+  }
 }
 .footer {
   padding-top: 60px;
@@ -2315,16 +2411,6 @@ li {
 
 .log-item {
   margin-right: 70px;
-}
-
-.logotipe_blu {
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19px;
-  letter-spacing: 0.03em;
-  color: var(--knob-color);
-  margin-left: -30px;
 }
 
 .logotipe_white {
@@ -2555,6 +2641,9 @@ li {
   }
   .mobile-menu_conteiner_portfolio {
     position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
   .portfolio-menu:not(last-child) {
     padding-bottom: 35px;
@@ -2570,7 +2659,7 @@ li {
   .portfolio-menu_refernces:hover, .portfolio-menu_refernces:focus {
     color: #2196F3;
   }
-  .mobaile-contact {
+  .mobail-contact {
     padding-bottom: 64px;
   }
   .mobaile-contact-phone {
@@ -2589,7 +2678,6 @@ li {
     letter-spacing: 0.02em;
     padding-top: 32px;
     color: #757575;
-    padding-bottom: 64px;
   }
   .mobaile-social_list {
     display: inline-block;
@@ -2603,7 +2691,7 @@ li {
   .references-text {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
-    font-size: 15px;
+    font-size: 18px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2196F3;

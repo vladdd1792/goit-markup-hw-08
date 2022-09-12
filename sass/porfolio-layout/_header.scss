@@ -1,7 +1,13 @@
 @media screen and (max-width: 1200px) {
+    .page-header {
+        border-bottom: #ECECEC 1px solid;
+    }
 }
 
 @media screen and (max-width: 768px) {
+    .page-header {
+        border-bottom: #ECECEC 1px solid;
+    }
     .menu_ul {
         display: none;
     }
@@ -15,7 +21,12 @@
 }
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
+    .page-header {
+        padding-top: 16px;
+        padding-bottom: 16px;
+        border-bottom: #ECECEC 1px solid;
+    }
     .menu-item{
         display: none;
     }
@@ -56,9 +67,7 @@
     transform: translateX(0);
 }
 
-.page-header {
-    border-bottom: #ECECEC 1px solid;
-}
+
 
 .page-header-container {
     display: flex;

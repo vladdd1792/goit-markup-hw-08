@@ -1,6 +1,5 @@
 @media screen and (max-width: 767px) {
     .page_title {
-        
         font-weight: 900;
         font-size: 26px;
         line-height: 42px;
@@ -9,6 +8,12 @@
         text-transform: uppercase;
         color: var(--whitey-color);
         margin-bottom: 30px;
+        max-width: 480px;
+        margin-left: auto;
+        margin-right: auto;
+       
+        width: 360px;
+        height: 84px;
     }
 
       .text {
@@ -85,6 +90,29 @@ color: var(--mail-color);
      &:focus {
         border-color: #2196F3;
     }
+}
+
+.text1 {
+    padding-top: 60px; 
+  }
+ 
+  .photo_section {
+      padding-top: 60px;
+      padding-bottom: 60px;
+  }
+  
+  .client-title {
+    font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+line-height: 1.16;
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #212121;
+
+margin-bottom: 30px;
 }
 
    
@@ -172,6 +200,30 @@ color: var(--mail-color);
                 border-color: #2196F3;
             }
         }
+
+        .text1 {
+            padding-top: 60px; 
+          }
+         
+          .photo_section {
+              padding-top: 60px;
+              padding-bottom: 60px;
+          }
+
+          .client-title {
+            font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 1.16;
+        text-align: center;
+        letter-spacing: 0.03em;
+        
+        color: #212121;
+        
+        margin-bottom: 30px;
+        }
+          
     
 }
 
@@ -272,6 +324,30 @@ color: var(--mail-color);
             }
         }
 
+        .text1 {
+            padding-top: 94px; 
+          }
+         
+          .photo_section {
+              padding-top: 94px;
+              padding-bottom: 94px;
+          }
+
+          .client-title {
+            font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.16;
+        text-align: center;
+        letter-spacing: 0.03em;
+        
+        color: #212121;
+        
+        margin-bottom: 30px;
+        }
+          
+
 }
 
     
@@ -312,7 +388,7 @@ color: var(--mail-color);
         padding-top: 118px;
         padding-bottom: 118px;
         background-size: cover;
-        background-color: rgba(47, 48, 58, 0.4);
+        
         background-image: url("../images/hero/hero-tablet/Header\ img.jpg");
                 @media (min-device-pixel-ratio: 2),
   (-webkit-min-device-pixel-ratio: 2),
@@ -326,6 +402,21 @@ color: var(--mail-color);
     background-image: linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)), url("../images/hero/hero-tablet/Header\ img@2x.jpg ");
   }
     }
+
+    .client-title {
+        font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    
+    color: #212121;
+    
+    margin-bottom: 30px;
+    }
+
    
    
 }
@@ -357,12 +448,6 @@ color: var(--mail-color);
         }
         
     }
-    
-
-}
-
-
-    
 
     .client-title {
         font-family: 'Roboto', sans-serif;
@@ -378,6 +463,14 @@ color: var(--mail-color);
     margin-bottom: 50px;
     }
 
+    
+
+}
+
+
+    
+
+
     .client-list {
         display: flex;
         justify-content: center;
@@ -387,17 +480,6 @@ color: var(--mail-color);
     }
 
       
-
-
-.text1 {
-    padding-top: 94px; 
-  }
- 
-  .photo_section {
-      padding-top: 94px;
-      padding-bottom: 94px;
-  }
-  
 
 
   .li_h3 {

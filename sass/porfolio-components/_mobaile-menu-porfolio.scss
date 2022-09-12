@@ -39,6 +39,9 @@
 
     .mobile-menu_conteiner_portfolio{
         position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
     }
 
     .portfolio-menu:not(last-child){
@@ -61,7 +64,7 @@ color: #212121;
         color: #2196F3;
     }
 
-    .mobaile-contact {
+    .mobail-contact {
         padding-bottom: 64px;
     }
 
@@ -84,7 +87,7 @@ letter-spacing: 0.02em;
 padding-top: 32px;
 
 color: #757575;
-padding-bottom: 64px;
+
     }
 
     .mobaile-social_list{
@@ -101,7 +104,7 @@ padding-bottom: 64px;
     .references-text{
         font-family: 'Roboto', sans-serif;
 font-weight: 500;
-font-size: 15px;
+font-size: 18px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 
