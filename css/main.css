@@ -1,4 +1,3 @@
-@charset "UTF-8";
 :root {
   --font-family-main: "Roboto", sans-serif;
   --font-family-logo: "Raleway", sans-serif;
@@ -58,7 +57,6 @@ button {
 
 @media screen and (min-width: 480px) {
   .container {
-    width: 450px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -330,42 +328,7 @@ button {
     display: none;
   }
 }
-@media screen and (max-width: 767px) {
-  .page_header {
-    padding-top: 16px;
-    padding-bottom: 16px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-  .menu_ul {
-    display: none;
-  }
-  .contact_1 {
-    display: none;
-  }
-}
-@media screen and (min-width: 768px) {
-  .mobile-menu-open {
-    display: none;
-  }
-  .contact_maill {
-    display: flex;
-    flex-direction: row-reverse;
-    font-family: var(--primary-font);
-    font-style: normal;
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-    color: #757575;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
-  .contact_maill:hover, .contact_maill:focus {
-    color: #2196F3;
-  }
-}
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1199px) {
   .page_header {
     display: flex;
     align-items: center;
@@ -385,6 +348,50 @@ button {
   }
   .contact_maill:hover, .contact_maill:focus {
     color: #2196F3;
+  }
+}
+@media screen and (min-width: 768px) {
+  .page_header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .mobile-menu-open {
+    display: none;
+  }
+  .contact_maill {
+    display: flex;
+    flex-direction: row-reverse;
+    font-family: var(--primary-font);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #757575;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .contact_maill:hover, .contact_maill:focus {
+    color: #2196F3;
+  }
+  .menu_ul {
+    display: flex;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 767px) {
+  .page_header {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .menu_ul {
+    display: none;
+  }
+  .contact_1 {
+    display: none;
   }
 }
 .mobile-menu_close-btn {
@@ -449,11 +456,6 @@ button {
   letter-spacing: 0.02em;
   color: #757575;
   margin-right: 50px;
-}
-
-.menu_ul {
-  display: flex;
-  align-items: center;
 }
 
 .menu-link:hover,
@@ -1155,10 +1157,8 @@ button {
   .footer_div_2 {
     text-align: center;
   }
-  .ссс {
-    margin-right: 137px;
-  }
   .footer_div_2 {
+    padding-bottom: 60px;
     margin-left: 0px;
   }
   .contact-footer {
@@ -1178,13 +1178,11 @@ button {
   }
 }
 @media screen and (min-width: 768px) {
-  .footer_div_2 {
-    margin-left: 115px;
-  }
-  .social-network {
-    margin-top: -115px;
-    margin-left: 400px;
-    margin-bottom: 100px;
+  .footer_div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: baseline;
   }
   .address {
     margin-left: 0px;
@@ -1192,10 +1190,11 @@ button {
   .contact-footer {
     margin-left: 0px;
   }
-  .soc-foot-h3-div {
-    margin-left: 110px;
+  .label-span-footer-1 {
+    text-align: center;
   }
   .form-footer-div-1 {
+    padding-top: 60px;
     margin-right: 166px;
     margin-left: 166px;
   }
@@ -1210,8 +1209,11 @@ button {
   }
 }
 @media screen and (min-width: 1200px) {
-  .logologo {
-    margin-top: -20px;
+  .footer_div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-items: baseline;
   }
   .logotipe_blue_end {
     font-family: "Raleway", sans-serif;
@@ -1230,16 +1232,11 @@ button {
     color: rgb(255, 255, 246);
   }
   .footer_div_2 {
-    margin-left: 20px;
     flex-shrink: 0;
   }
   .footer_div {
     display: flex;
     align-items: baseline;
-    margin-right: 71px;
-  }
-  .log-item {
-    margin-right: 70px;
   }
   .logo-footer {
     width: auto;
@@ -1295,11 +1292,7 @@ button {
     color: #FFFFFF;
     font-style: normal;
   }
-  .contact-footer {
-    margin-left: -40px;
-  }
   .address {
-    margin-bottom: 90px;
     margin-left: 6px;
   }
   .nomer {
@@ -1360,7 +1353,9 @@ button {
     letter-spacing: 0.03em;
     color: var(--knob-color);
     text-align: center;
-    margin-left: -30px;
+  }
+  .label-span-footer-1 {
+    text-align: start;
   }
 }
 .logotip_blake_end {
@@ -1764,22 +1759,69 @@ li {
     width: 1200px;
   }
 }
-@media screen and (max-width: 1200px) {
+@media screen and (min-width: 1199px) {
   .page-header {
     border-bottom: #ECECEC 1px solid;
+  }
+  .contact-maill {
+    display: flex;
+    flex-direction: row-reverse;
+    font-family: var(--primary-font);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #757575;
+  }
+  .contact-maill:hover, .contact-maill:focus {
+    color: #2196F3;
+  }
+  .contact-phoun-number {
+    display: flex;
+    flex-direction: row-reverse;
+    font-family: var(--primary-font);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #757575;
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
   .page-header {
     border-bottom: #ECECEC 1px solid;
-  }
-  .menu_ul {
-    display: none;
   }
   .contact {
     display: none;
     display: flex;
     align-items: center;
+  }
+  .contact-maill {
+    display: flex;
+    flex-direction: row-reverse;
+    font-family: var(--primary-font);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #757575;
+  }
+  .contact-maill:hover, .contact-maill:focus {
+    color: #2196F3;
+  }
+  .contact-phoun-number {
+    display: flex;
+    flex-direction: row-reverse;
+    font-family: var(--primary-font);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #757575;
   }
 }
 @media screen and (max-width: 767px) {
@@ -1931,33 +1973,6 @@ li {
   color: #757575;
 }
 
-.contact-maill {
-  display: flex;
-  flex-direction: row-reverse;
-  font-family: var(--primary-font);
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  color: #757575;
-}
-.contact-maill:hover, .contact-maill:focus {
-  color: #2196F3;
-}
-
-.contact-phoun-number {
-  display: flex;
-  flex-direction: row-reverse;
-  font-family: var(--primary-font);
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  color: #757575;
-}
-
 .contact-maill-cont {
   justify-content: center;
   text-align: center;
@@ -2012,7 +2027,7 @@ li {
   .photo-top {
     display: flex;
     flex-wrap: wrap;
-    margin-top: 50px;
+    margin-top: 30px;
     gap: 30px;
     background: #FFFFFF;
   }
@@ -2126,7 +2141,7 @@ li {
   transform: translate(0, 0);
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .adres_footer {
     margin-top: 20px;
     margin-bottom: 8px;
@@ -2137,10 +2152,6 @@ li {
     color: #FFFFFF;
     font-style: normal;
     text-align: center;
-  }
-  .social-network {
-    margin-top: 60px;
-    margin-left: 120px;
   }
   .form-footer-div-1 {
     vertical-align: auto;
@@ -2156,7 +2167,6 @@ li {
     flex-shrink: 0;
   }
   .soc-foot-h3 {
-    margin-right: 200px;
     margin-bottom: 20px;
     font-family: "Roboto";
     font-style: normal;
@@ -2228,10 +2238,21 @@ li {
     letter-spacing: 0.03em;
     color: var(--knob-color);
   }
+  .soc-foot-h3 {
+    margin-bottom: 20px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-align: center;
+  }
 }
 @media screen and (min-width: 768px) {
   .adres_footer {
-    margin-left: -40px;
     margin-top: 20px;
     margin-bottom: 9px;
     font-family: var(--primary-font);
@@ -2255,6 +2276,7 @@ li {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #FFFFFF;
+    text-align: center;
   }
   .logotipe_end {
     align-items: baseline;
@@ -2277,7 +2299,6 @@ li {
     text-transform: uppercase;
     color: #FFFFFF;
     margin-bottom: 20px;
-    text-align: center;
   }
   .label-input-footer {
     width: 100%;
@@ -2357,7 +2378,6 @@ li {
   }
   .form-footer-div-1 {
     margin-top: none;
-    margin-left: 80px;
   }
   .form-footer {
     display: flex;
@@ -2375,6 +2395,7 @@ li {
     text-transform: uppercase;
     color: #FFFFFF;
     margin-bottom: 20px;
+    margin-left: 0px;
   }
   .label-input-footer {
     width: 358px;
@@ -2496,7 +2517,7 @@ li {
   }
   .button-div-podpis {
     margin-top: 20px;
-    margin-left: 85px;
+    text-align: center;
   }
 }
 @media screen and (min-width: 768px) {
@@ -2510,7 +2531,7 @@ li {
   }
   .button-div-podpis {
     margin-top: 20px;
-    margin-left: 100px;
+    text-align: center;
   }
 }
 @media screen and (min-width: 1200px) {
