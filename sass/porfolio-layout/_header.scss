@@ -101,8 +101,14 @@
         line-height: 0;
     
     }
+
+    .current {
+        color:var(--knob-color)
+    }
    
 }
+
+
 
 .mobile-menu_close-portfolio_icon:hover, .mobile-menu_close-portfolio_icon:focus {
     fill: #2196F3;
