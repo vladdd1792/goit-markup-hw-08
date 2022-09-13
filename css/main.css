@@ -1354,6 +1354,10 @@ button {
     padding-bottom: 60px;
   }
 }
+.label-div-footer {
+  text-align: center;
+}
+
 .logotip_blake_end {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -2214,6 +2218,7 @@ li {
     color: #F5F4FA;
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
     padding-left: 16px;
+    margin-bottom: 20px;
   }
   .label-input-footer:focus {
     outline: none;
@@ -2313,6 +2318,7 @@ li {
     color: #F5F4FA;
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
     padding-left: 16px;
+    margin-bottom: 20px;
   }
   .label-input-footer:focus {
     outline: none;
