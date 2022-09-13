@@ -3,12 +3,11 @@
     .footer_div_2 {
         text-align: center;
     }
-    .ссс {
-        margin-right: 137px;
-    }
+    
 
     
     .footer_div_2 {
+        padding-bottom: 60px;
         margin-left: 0px;
     }
 
@@ -35,16 +34,11 @@
 } 
 
 @media screen and (min-width: 768px) {
-
-    .footer_div_2 {
-        margin-left: 115px;
-    }
-
-    .social-network {
-        margin-top: -115px;
-        margin-left: 400px;
-        margin-bottom: 100px;
-
+    .footer_div {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: baseline;
     }
 
     .address {
@@ -54,11 +48,12 @@
     .contact-footer {
         margin-left: 0px;
     }
-    .soc-foot-h3-div {
-        margin-left: 110px;
+    .label-span-footer-1 {
+        text-align: center;
     }
 
     .form-footer-div-1 {
+        padding-top: 60px;
         margin-right: 166px;
         margin-left: 166px;
     }
@@ -79,8 +74,11 @@
 
 @media screen and (min-width: 1200px) {
 
-    .logologo {
-        margin-top: -20px;
+    .footer_div {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: start;
+        align-items: baseline;
     }
     
 .logotipe_blue_end {
@@ -101,18 +99,14 @@
 }
 
 .footer_div_2 {
-    margin-left: 20px;
     flex-shrink: 0;
 }
 .footer_div {
     display: flex;
     align-items: baseline;
-    margin-right: 71px;
+    
 }
-.log-item {
-    margin-right: 70px;
 
-}
 .logo-footer {
     width: auto;
     font-weight: 700;
@@ -177,12 +171,8 @@
 
 }
 
-.contact-footer {
-  margin-left: -40px;
-}
 
 .address {
-    margin-bottom: 90px;
     margin-left: 6px;
 }
 
@@ -255,7 +245,15 @@ padding-left: 16px;
     letter-spacing: 0.03em;
     color:var(--knob-color);
     text-align: center;
-    margin-left: -30px;
+ 
+}
+
+.label-span-footer-1 {
+    text-align: start;
+}
+
+.form-footer-div-1 {
+   
 }
 
 

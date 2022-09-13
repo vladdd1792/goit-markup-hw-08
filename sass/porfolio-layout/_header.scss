@@ -1,21 +1,77 @@
-@media screen and (max-width: 1200px) {
+@media screen and (min-width: 1199px) {
     .page-header {
         border-bottom: #ECECEC 1px solid;
+    }
+
+    .contact-maill { 
+        display: flex;
+        flex-direction: row-reverse;
+        font-family: var(--primary-font);
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+        color: #757575;
+    
+        &:hover,
+        &:focus {
+        color: #2196F3;
+    }
+    }
+    .contact-phoun-number {
+        display: flex;
+        flex-direction: row-reverse;
+        font-family: var(--primary-font);
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+        color: #757575;
+    
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
     .page-header {
         border-bottom: #ECECEC 1px solid;
     }
-    .menu_ul {
-        display: none;
-    }
+    
 
     .contact {
         display: none;
         display: flex;
         align-items: center;
+    }
+
+    .contact-maill { 
+        display: flex;
+        flex-direction: row-reverse;
+        font-family: var(--primary-font);
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+        color: #757575;
+    
+        &:hover,
+        &:focus {
+        color: #2196F3;
+    }
+    }
+    .contact-phoun-number {
+        display: flex;
+        flex-direction: row-reverse;
+        font-family: var(--primary-font);
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+        color: #757575;
+    
     }
     
 }
@@ -187,34 +243,7 @@ cursor: pointer;
     color:#757575;
 }
 
-.contact-maill { 
-    display: flex;
-    flex-direction: row-reverse;
-    font-family: var(--primary-font);
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-    color: #757575;
 
-    &:hover,
-    &:focus {
-    color: #2196F3;
-}
-}
-.contact-phoun-number {
-    display: flex;
-    flex-direction: row-reverse;
-    font-family: var(--primary-font);
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-    color: #757575;
-
-}
 
 .contact-maill-cont {
     justify-content: center;
