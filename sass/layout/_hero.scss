@@ -67,7 +67,7 @@ color: var(--mail-color);
 }
 
 .client-item {
-    width: 170px;
+    width: 210px;
     height: 92px;
 }
 
@@ -75,7 +75,7 @@ color: var(--mail-color);
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 170px;
+    width: 210px;
     height: 92px;
     border: 1px solid #AFB1B8;
     border-radius: 4px;
@@ -326,6 +326,7 @@ margin-bottom: 30px;
 
         .text1 {
             padding-top: 94px; 
+            padding-bottom: 94px;
           }
          
           .photo_section {
