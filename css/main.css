@@ -798,6 +798,9 @@ button {
     letter-spacing: 0.03em;
     color: var(--mail-color);
   }
+  .photo_section {
+    display: none;
+  }
   .satellite {
     width: 270px;
     height: 120px;
@@ -2299,7 +2302,7 @@ li {
     padding-top: 60px;
     -webkit-box-align: end;
     -ms-flex-align: end;
-    padding-bottom: 40px;
+    padding-bottom: 0px;
   }
   .label-span-footer {
     font-family: "Roboto", sans-serif;
@@ -2348,6 +2351,13 @@ li {
     color: #FFFFFF;
     font-style: normal;
     margin-left: auto;
+  }
+  .form-footer {
+    display: flex;
+    padding-top: 0px;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    padding-bottom: 0px;
   }
   .adress {
     margin-left: 6px;
@@ -2434,6 +2444,7 @@ li {
 }
 .footer {
   padding-top: 60px;
+  padding-bottom: 60px;
   background: #2F303A;
 }
 
