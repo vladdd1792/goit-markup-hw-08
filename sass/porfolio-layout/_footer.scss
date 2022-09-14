@@ -180,7 +180,7 @@ margin-bottom: 20px;
     
         -webkit-box-align: end;
         -ms-flex-align: end;
-        padding-bottom: 40px;
+        padding-bottom: 0px;
     }
 
     .label-span-footer {
@@ -241,7 +241,14 @@ margin-bottom: 20px;
         margin-left: auto;
     }
 
-
+    .form-footer  {
+        display: flex;
+        padding-top: 0px;
+    
+        -webkit-box-align: end;
+        -ms-flex-align: end;
+        padding-bottom: 0px;
+    }
 
     .adress {
         margin-left: 6px;
@@ -346,6 +353,7 @@ margin-bottom: 20px;
 
 .footer {
     padding-top: 60px;
+    padding-bottom: 60px;
     
     background: #2F303A;
     
